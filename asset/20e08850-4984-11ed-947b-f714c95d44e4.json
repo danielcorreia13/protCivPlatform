@@ -1,0 +1,27 @@
+{
+  "entityType" : "ASSET",
+  "entity" : {
+    "additionalInfo" : {
+      "description" : ""
+    },
+    "createdTime" : 1665506735445,
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "externalId" : null,
+    "id" : {
+      "entityType" : "ASSET",
+      "id" : "20e08850-4984-11ed-947b-f714c95d44e4"
+    },
+    "label" : "viseu_fire_dep",
+    "name" : "Bombeiros Voluntários de Viseu",
+    "ownerId" : null,
+    "tenantId" : null,
+    "type" : "fire_brigade"
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}
