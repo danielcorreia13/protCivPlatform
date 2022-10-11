@@ -1,0 +1,27 @@
+{
+  "entityType" : "ASSET",
+  "entity" : {
+    "additionalInfo" : {
+      "description" : ""
+    },
+    "createdTime" : 1665506509120,
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "externalId" : null,
+    "id" : {
+      "entityType" : "ASSET",
+      "id" : "99fa1400-4983-11ed-b84d-a3b0cfc66b1c"
+    },
+    "label" : "fire_dep_aveiro",
+    "name" : "Bombeiros de Aveiro",
+    "ownerId" : null,
+    "tenantId" : null,
+    "type" : "fire_brigade"
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}
