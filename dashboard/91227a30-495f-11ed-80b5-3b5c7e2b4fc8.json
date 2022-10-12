@@ -423,7 +423,7 @@
           "filter" : {
             "type" : "deviceType",
             "resolveMultiple" : true,
-            "deviceType" : "Fire Truck",
+            "deviceType" : "fire_truck",
             "deviceNameFilter" : ""
           }
         }
