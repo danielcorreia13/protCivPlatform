@@ -149,8 +149,8 @@
               "useLabelFunction" : false,
               "label" : "${entityName}",
               "showTooltip" : true,
-              "showTooltipAction" : "hover",
-              "autocloseTooltip" : true,
+              "showTooltipAction" : "click",
+              "autocloseTooltip" : false,
               "useTooltipFunction" : false,
               "tooltipPattern" : "<b>${entityName}</b><br/><br/><b>Latitude:</b> ${latitude:7}<br/><b>Longitude:</b> ${longitude:7}<br/><b>Temperature:</b> ${temperature} °C<br/><small>See advanced settings for details</small>\n<link-act name='TooltipTag'>Show More</link-act>",
               "tooltipOffsetX" : 0,
@@ -396,7 +396,7 @@
                 "d3dec2ea-cf57-ea4b-813c-398a0accbecf" : {
                   "sizeX" : 8,
                   "sizeY" : 13,
-                  "row" : 0,
+                  "row" : 1,
                   "col" : 17
                 },
                 "9991b630-f869-9e62-ba87-48bdd9ccba64" : {
