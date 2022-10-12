@@ -323,7 +323,7 @@
           }
         },
         "truck_state" : {
-          "name" : "Truck_State",
+          "name" : "$(entityName): state",
           "root" : false,
           "layouts" : {
             "main" : {
