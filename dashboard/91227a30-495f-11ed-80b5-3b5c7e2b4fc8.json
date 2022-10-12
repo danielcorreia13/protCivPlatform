@@ -619,7 +619,7 @@
                 "limit" : 200
               }
             },
-            "showTitle" : true,
+            "showTitle" : false,
             "backgroundColor" : "rgb(255, 255, 255)",
             "color" : "rgba(0, 0, 0, 0.87)",
             "padding" : "8px",
@@ -643,7 +643,11 @@
             "showTitleIcon" : false,
             "iconColor" : "rgba(0, 0, 0, 0.87)",
             "iconSize" : "24px",
-            "displayTimewindow" : true
+            "displayTimewindow" : true,
+            "enableDataExport" : true,
+            "widgetCss" : "",
+            "pageSize" : 1024,
+            "noDataDisplayMessage" : ""
           },
           "row" : 0,
           "col" : 0,
@@ -771,9 +775,9 @@
         "selectedTab" : 0,
         "realtime" : {
           "realtimeType" : 0,
-          "timewindowMs" : 86400000,
+          "timewindowMs" : 120000,
           "quickInterval" : "CURRENT_DAY",
-          "interval" : 1800000
+          "interval" : 15000
         },
         "aggregation" : {
           "type" : "AVG",
