@@ -1,0 +1,27 @@
+{
+  "entityType" : "DASHBOARD",
+  "entity" : {
+    "assignedCustomers" : null,
+    "configuration" : {
+      "description" : ""
+    },
+    "createdTime" : 1665587353569,
+    "customerId" : null,
+    "externalId" : null,
+    "id" : {
+      "entityType" : "DASHBOARD",
+      "id" : "d5060510-4a3f-11ed-947b-f714c95d44e4"
+    },
+    "image" : null,
+    "mobileHide" : false,
+    "mobileOrder" : null,
+    "name" : "Fire_Department_Dashboard",
+    "ownerId" : null,
+    "tenantId" : null,
+    "title" : "Fire_Department_Dashboard"
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}
