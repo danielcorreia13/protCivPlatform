@@ -89,42 +89,22 @@
             "datasources" : [ {
               "type" : "entity",
               "name" : null,
-              "entityAliasId" : "b7671ebb-7b28-9897-1731-c3ec1d6dd13b",
-              "filterId" : null,
-              "dataKeys" : [ {
-                "name" : "latitude",
-                "type" : "attribute",
-                "label" : "latitude",
-                "color" : "#2196f3",
-                "settings" : { },
-                "_hash" : 0.17744970482697386
-              }, {
-                "name" : "longitude",
-                "type" : "attribute",
-                "label" : "longitude",
-                "color" : "#4caf50",
-                "settings" : { },
-                "_hash" : 0.0987249067554321
-              } ]
-            }, {
-              "type" : "entity",
-              "name" : null,
               "entityAliasId" : "237443a4-edd7-fe97-ab20-90abb1079989",
               "filterId" : null,
               "dataKeys" : [ {
                 "name" : "latitude",
                 "type" : "timeseries",
-                "label" : "latitude 2",
-                "color" : "#f44336",
+                "label" : "latitude",
+                "color" : "#2196f3",
                 "settings" : { },
-                "_hash" : 0.8316934091998858
+                "_hash" : 0.30549885971518864
               }, {
                 "name" : "longitude",
                 "type" : "timeseries",
-                "label" : "longitude 2",
-                "color" : "#ffc107",
+                "label" : "longitude",
+                "color" : "#4caf50",
                 "settings" : { },
-                "_hash" : 0.20798378827441133
+                "_hash" : 0.7844914429782333
               } ]
             } ],
             "timewindow" : {
@@ -450,7 +430,6 @@
       },
       "filters" : { },
       "timewindow" : {
-        "displayValue" : "",
         "hideInterval" : false,
         "hideAggregation" : false,
         "hideAggInterval" : false,
@@ -458,19 +437,9 @@
         "selectedTab" : 0,
         "realtime" : {
           "realtimeType" : 0,
-          "interval" : 1000,
-          "timewindowMs" : 60000,
-          "quickInterval" : "CURRENT_DAY"
-        },
-        "history" : {
-          "historyType" : 0,
-          "interval" : 1000,
-          "timewindowMs" : 60000,
-          "fixedTimewindow" : {
-            "startTimeMs" : 1665404637292,
-            "endTimeMs" : 1665491037292
-          },
-          "quickInterval" : "CURRENT_DAY"
+          "timewindowMs" : 604800000,
+          "quickInterval" : "CURRENT_DAY",
+          "interval" : 1800000
         },
         "aggregation" : {
           "type" : "AVG",
