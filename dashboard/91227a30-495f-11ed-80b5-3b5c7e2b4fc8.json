@@ -106,6 +106,26 @@
                 "settings" : { },
                 "_hash" : 0.0987249067554321
               } ]
+            }, {
+              "type" : "entity",
+              "name" : null,
+              "entityAliasId" : "237443a4-edd7-fe97-ab20-90abb1079989",
+              "filterId" : null,
+              "dataKeys" : [ {
+                "name" : "latitude",
+                "type" : "timeseries",
+                "label" : "latitude 2",
+                "color" : "#f44336",
+                "settings" : { },
+                "_hash" : 0.8316934091998858
+              }, {
+                "name" : "longitude",
+                "type" : "timeseries",
+                "label" : "longitude 2",
+                "color" : "#ffc107",
+                "settings" : { },
+                "_hash" : 0.20798378827441133
+              } ]
             } ],
             "timewindow" : {
               "realtime" : {
@@ -377,7 +397,7 @@
                   "sizeX" : 8,
                   "sizeY" : 13,
                   "row" : 0,
-                  "col" : 15
+                  "col" : 14
                 },
                 "9991b630-f869-9e62-ba87-48bdd9ccba64" : {
                   "sizeX" : 8,
@@ -410,6 +430,16 @@
         "741405f7-ed23-81bc-aa5c-b54313f70070" : {
           "id" : "741405f7-ed23-81bc-aa5c-b54313f70070",
           "alias" : "fire_truck_aveiro_1",
+          "filter" : {
+            "type" : "deviceType",
+            "resolveMultiple" : true,
+            "deviceType" : "Fire Truck",
+            "deviceNameFilter" : ""
+          }
+        },
+        "237443a4-edd7-fe97-ab20-90abb1079989" : {
+          "id" : "237443a4-edd7-fe97-ab20-90abb1079989",
+          "alias" : "fire_trucks",
           "filter" : {
             "type" : "deviceType",
             "resolveMultiple" : true,
