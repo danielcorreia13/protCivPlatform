@@ -29,7 +29,7 @@
       "entityType" : "ENTITY_GROUP",
       "id" : "1dd612f0-4a3e-11ed-945a-e9eba22b9df6"
     },
-    "name" : "Fire_Department",
+    "name" : "Fire_Department_Center",
     "ownerId" : {
       "entityType" : "TENANT",
       "id" : "dc4ab370-495e-11ed-945a-e9eba22b9df6"
