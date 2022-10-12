@@ -30,11 +30,11 @@
       "id" : "8f7c9290-4984-11ed-b84d-a3b0cfc66b1c"
     },
     "label" : "av_truck_1",
-    "name" : "Aveiro truck 1",
+    "name" : "av_truck_1",
     "ownerId" : null,
     "softwareId" : null,
     "tenantId" : null,
-    "type" : "Fire Truck"
+    "type" : "fire_truck"
   },
   "credentials" : {
     "credentialsId" : "3XW3f21ejbbqXdlTqN1K",
@@ -42,7 +42,47 @@
     "credentialsValue" : null
   },
   "attributes" : {
-    "SERVER_SCOPE" : [ ],
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : true,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "active",
+      "lastUpdateTs" : 1665582008913,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "inactivityAlarmTime",
+      "lastUpdateTs" : 1665580592135,
+      "longValue" : 1665580592132,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastActivityTime",
+      "lastUpdateTs" : 1665582009344,
+      "longValue" : 1665582009160,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastConnectTime",
+      "lastUpdateTs" : 1665582008913,
+      "longValue" : 1665582008913,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastDisconnectTime",
+      "lastUpdateTs" : 1665582009162,
+      "longValue" : 1665582009162,
+      "strValue" : null
+    } ],
     "SHARED_SCOPE" : [ ]
   }
 }
