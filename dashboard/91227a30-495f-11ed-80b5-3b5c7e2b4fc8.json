@@ -213,7 +213,8 @@
             "showLegend" : false,
             "widgetStyle" : { },
             "actions" : {
-              "markerClick" : [ {
+              "markerClick" : [ ],
+              "tooltipAction" : [ {
                 "name" : "open_truck",
                 "icon" : "more_horiz",
                 "useShowWidgetActionFunction" : null,
@@ -446,7 +447,7 @@
           "id" : "f128401a-01b9-d282-3ae7-d1ae02f79a57",
           "alias" : "current_veichle",
           "filter" : {
-            "type" : "stateEntityOwner",
+            "type" : "stateEntity",
             "resolveMultiple" : false,
             "stateEntityParamName" : null,
             "defaultStateEntity" : null
