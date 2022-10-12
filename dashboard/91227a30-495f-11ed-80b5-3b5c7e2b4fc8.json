@@ -224,7 +224,7 @@
                 "useShowWidgetActionFunction" : null,
                 "showWidgetActionFunction" : "return true;",
                 "type" : "openDashboardState",
-                "targetDashboardStateId" : "truck",
+                "targetDashboardStateId" : "veichle",
                 "setEntityId" : true,
                 "stateEntityParamName" : null,
                 "openRightLayout" : false,
@@ -522,7 +522,7 @@
                 "d3dec2ea-cf57-ea4b-813c-398a0accbecf" : {
                   "sizeX" : 8,
                   "sizeY" : 13,
-                  "row" : 1,
+                  "row" : 0,
                   "col" : 17
                 },
                 "9991b630-f869-9e62-ba87-48bdd9ccba64" : {
