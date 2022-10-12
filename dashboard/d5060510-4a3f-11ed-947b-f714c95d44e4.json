@@ -3,7 +3,158 @@
   "entity" : {
     "assignedCustomers" : null,
     "configuration" : {
-      "description" : ""
+      "description" : "",
+      "widgets" : {
+        "ea371cfb-d92f-f432-0993-5c906c382bae" : {
+          "isSystemType" : true,
+          "bundleAlias" : "cards",
+          "typeAlias" : "entities_table",
+          "type" : "latest",
+          "title" : "New widget",
+          "image" : null,
+          "description" : null,
+          "sizeX" : 7.5,
+          "sizeY" : 6.5,
+          "config" : {
+            "timewindow" : {
+              "realtime" : {
+                "interval" : 1000,
+                "timewindowMs" : 86400000
+              },
+              "aggregation" : {
+                "type" : "NONE",
+                "limit" : 200
+              }
+            },
+            "showTitle" : true,
+            "backgroundColor" : "rgb(255, 255, 255)",
+            "color" : "rgba(0, 0, 0, 0.87)",
+            "padding" : "4px",
+            "settings" : {
+              "enableSearch" : true,
+              "enableSelectColumnDisplay" : true,
+              "enableStickyHeader" : true,
+              "enableStickyAction" : true,
+              "reserveSpaceForHiddenAction" : "true",
+              "displayEntityName" : true,
+              "displayEntityLabel" : false,
+              "displayEntityType" : false,
+              "displayPagination" : true,
+              "defaultPageSize" : 10,
+              "defaultSortOrder" : "entityName",
+              "useRowStyleFunction" : false
+            },
+            "title" : "New Entities table",
+            "dropShadow" : true,
+            "enableFullscreen" : true,
+            "titleStyle" : {
+              "fontSize" : "16px",
+              "fontWeight" : 400,
+              "padding" : "5px 10px 5px 10px"
+            },
+            "useDashboardTimewindow" : false,
+            "showLegend" : false,
+            "datasources" : [ {
+              "type" : "entity",
+              "name" : null,
+              "entityAliasId" : "f75870ae-4d25-e0a2-1b8b-c884bca7e43b",
+              "filterId" : null,
+              "dataKeys" : [ {
+                "name" : "waterLevel",
+                "type" : "attribute",
+                "label" : "waterLevel",
+                "color" : "#2196f3",
+                "settings" : { },
+                "_hash" : 0.2761707446466466
+              }, {
+                "name" : "fullLevel",
+                "type" : "attribute",
+                "label" : "fullLevel",
+                "color" : "#4caf50",
+                "settings" : { },
+                "_hash" : 0.7014842113058706
+              } ]
+            } ]
+          },
+          "row" : 0,
+          "col" : 0,
+          "id" : "ea371cfb-d92f-f432-0993-5c906c382bae"
+        }
+      },
+      "states" : {
+        "default" : {
+          "name" : "Fire_Department_Aveiro",
+          "root" : true,
+          "layouts" : {
+            "main" : {
+              "widgets" : {
+                "ea371cfb-d92f-f432-0993-5c906c382bae" : {
+                  "sizeX" : 7,
+                  "sizeY" : 6,
+                  "row" : 0,
+                  "col" : 0
+                }
+              },
+              "gridSettings" : {
+                "backgroundColor" : "#eeeeee",
+                "columns" : 24,
+                "margin" : 10,
+                "backgroundSizeMode" : "100%"
+              }
+            }
+          }
+        }
+      },
+      "entityAliases" : {
+        "f75870ae-4d25-e0a2-1b8b-c884bca7e43b" : {
+          "id" : "f75870ae-4d25-e0a2-1b8b-c884bca7e43b",
+          "alias" : "Trucks",
+          "filter" : {
+            "type" : "assetType",
+            "resolveMultiple" : true,
+            "assetType" : "fire_truck",
+            "assetNameFilter" : ""
+          }
+        }
+      },
+      "filters" : { },
+      "timewindow" : {
+        "displayValue" : "",
+        "hideInterval" : false,
+        "hideAggregation" : false,
+        "hideAggInterval" : false,
+        "hideTimezone" : false,
+        "selectedTab" : 0,
+        "realtime" : {
+          "realtimeType" : 0,
+          "interval" : 1000,
+          "timewindowMs" : 60000,
+          "quickInterval" : "CURRENT_DAY"
+        },
+        "history" : {
+          "historyType" : 0,
+          "interval" : 1000,
+          "timewindowMs" : 60000,
+          "fixedTimewindow" : {
+            "startTimeMs" : 1665501629114,
+            "endTimeMs" : 1665588029114
+          },
+          "quickInterval" : "CURRENT_DAY"
+        },
+        "aggregation" : {
+          "type" : "AVG",
+          "limit" : 25000
+        }
+      },
+      "settings" : {
+        "stateControllerId" : "entity",
+        "showTitle" : false,
+        "showDashboardsSelect" : true,
+        "showEntitiesSelect" : true,
+        "showDashboardTimewindow" : true,
+        "showDashboardExport" : true,
+        "toolbarAlwaysOpen" : true
+      }
     },
     "createdTime" : 1665587353569,
     "customerId" : null,
