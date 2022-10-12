@@ -74,7 +74,23 @@
                 "settings" : { },
                 "_hash" : 0.7014842113058706
               } ]
-            } ]
+            } ],
+            "actions" : {
+              "rowClick" : [ {
+                "name" : "Go to Truck",
+                "icon" : "more_horiz",
+                "useShowWidgetActionFunction" : null,
+                "showWidgetActionFunction" : "return true;",
+                "type" : "openDashboardState",
+                "targetDashboardStateId" : "truck_state",
+                "setEntityId" : true,
+                "stateEntityParamName" : null,
+                "openRightLayout" : false,
+                "openInSeparateDialog" : false,
+                "openInPopover" : false,
+                "id" : "a2c75b8d-9545-23c4-e4e0-cac9b331e440"
+              } ]
+            }
           },
           "row" : 0,
           "col" : 0,
@@ -94,7 +110,7 @@
             "datasources" : [ {
               "type" : "entity",
               "name" : null,
-              "entityAliasId" : "f75870ae-4d25-e0a2-1b8b-c884bca7e43b",
+              "entityAliasId" : "69f06a12-6750-d6ba-8a70-5699e0972b5d",
               "filterId" : null,
               "dataKeys" : [ {
                 "name" : "waterLevel",
@@ -195,7 +211,7 @@
             "datasources" : [ {
               "type" : "entity",
               "name" : null,
-              "entityAliasId" : "f75870ae-4d25-e0a2-1b8b-c884bca7e43b",
+              "entityAliasId" : "69f06a12-6750-d6ba-8a70-5699e0972b5d",
               "filterId" : null,
               "dataKeys" : [ {
                 "name" : "fullLevel",
@@ -344,6 +360,16 @@
             "resolveMultiple" : true,
             "assetType" : "fire_truck",
             "assetNameFilter" : ""
+          }
+        },
+        "69f06a12-6750-d6ba-8a70-5699e0972b5d" : {
+          "id" : "69f06a12-6750-d6ba-8a70-5699e0972b5d",
+          "alias" : "Current Truck",
+          "filter" : {
+            "type" : "stateEntity",
+            "resolveMultiple" : false,
+            "stateEntityParamName" : null,
+            "defaultStateEntity" : null
           }
         }
       },
