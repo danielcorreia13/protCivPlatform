@@ -1,0 +1,27 @@
+{
+  "entityType" : "ASSET",
+  "entity" : {
+    "additionalInfo" : {
+      "description" : ""
+    },
+    "createdTime" : 1665586867133,
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "externalId" : null,
+    "id" : {
+      "entityType" : "ASSET",
+      "id" : "b315c6d0-4a3e-11ed-947b-f714c95d44e4"
+    },
+    "label" : null,
+    "name" : "Fire_Department_Aveiro",
+    "ownerId" : null,
+    "tenantId" : null,
+    "type" : "fire_department"
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}
