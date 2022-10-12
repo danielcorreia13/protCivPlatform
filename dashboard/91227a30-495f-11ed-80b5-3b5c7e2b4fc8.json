@@ -378,6 +378,69 @@
           "row" : 0,
           "col" : 0,
           "id" : "9991b630-f869-9e62-ba87-48bdd9ccba64"
+        },
+        "dd9a5afe-c4ec-1efc-9980-b62979d2e6be" : {
+          "isSystemType" : true,
+          "bundleAlias" : "cards",
+          "typeAlias" : "entities_table",
+          "type" : "latest",
+          "title" : "New widget",
+          "image" : null,
+          "description" : null,
+          "sizeX" : 7.5,
+          "sizeY" : 6.5,
+          "config" : {
+            "timewindow" : {
+              "realtime" : {
+                "interval" : 1000,
+                "timewindowMs" : 86400000
+              },
+              "aggregation" : {
+                "type" : "NONE",
+                "limit" : 200
+              }
+            },
+            "showTitle" : true,
+            "backgroundColor" : "rgb(255, 255, 255)",
+            "color" : "rgba(0, 0, 0, 0.87)",
+            "padding" : "4px",
+            "settings" : {
+              "entitiesTitle" : "",
+              "enableSearch" : true,
+              "enableSelectColumnDisplay" : true,
+              "enableStickyHeader" : true,
+              "enableStickyAction" : true,
+              "reserveSpaceForHiddenAction" : "true",
+              "displayEntityName" : true,
+              "entityNameColumnTitle" : "",
+              "displayEntityLabel" : false,
+              "displayEntityType" : true,
+              "displayPagination" : true,
+              "defaultPageSize" : 10,
+              "defaultSortOrder" : "entityName",
+              "useRowStyleFunction" : false
+            },
+            "title" : "New Entities table",
+            "dropShadow" : true,
+            "enableFullscreen" : true,
+            "titleStyle" : {
+              "fontSize" : "16px",
+              "fontWeight" : 400,
+              "padding" : "5px 10px 5px 10px"
+            },
+            "useDashboardTimewindow" : false,
+            "showLegend" : false,
+            "datasources" : [ {
+              "type" : "entity",
+              "name" : null,
+              "entityAliasId" : "f128401a-01b9-d282-3ae7-d1ae02f79a57",
+              "filterId" : null,
+              "dataKeys" : [ ]
+            } ]
+          },
+          "row" : 0,
+          "col" : 0,
+          "id" : "dd9a5afe-c4ec-1efc-9980-b62979d2e6be"
         }
       },
       "states" : {
@@ -404,6 +467,12 @@
                   "sizeY" : 6,
                   "row" : 0,
                   "col" : 8
+                },
+                "dd9a5afe-c4ec-1efc-9980-b62979d2e6be" : {
+                  "sizeX" : 7,
+                  "sizeY" : 6,
+                  "row" : 6,
+                  "col" : 0
                 }
               },
               "gridSettings" : {
