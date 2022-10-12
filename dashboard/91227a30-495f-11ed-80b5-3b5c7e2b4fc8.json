@@ -212,7 +212,22 @@
             "useDashboardTimewindow" : true,
             "showLegend" : false,
             "widgetStyle" : { },
-            "actions" : { }
+            "actions" : {
+              "markerClick" : [ {
+                "name" : "open_truck",
+                "icon" : "more_horiz",
+                "useShowWidgetActionFunction" : null,
+                "showWidgetActionFunction" : "return true;",
+                "type" : "openDashboardState",
+                "targetDashboardStateId" : "truck",
+                "setEntityId" : true,
+                "stateEntityParamName" : null,
+                "openRightLayout" : false,
+                "openInSeparateDialog" : false,
+                "openInPopover" : false,
+                "id" : "3d32fd45-26da-4b18-d4c5-768038c0516c"
+              } ]
+            }
           },
           "row" : 0,
           "col" : 0,
@@ -232,7 +247,7 @@
             "datasources" : [ {
               "type" : "entity",
               "name" : null,
-              "entityAliasId" : "741405f7-ed23-81bc-aa5c-b54313f70070",
+              "entityAliasId" : "f128401a-01b9-d282-3ae7-d1ae02f79a57",
               "filterId" : null,
               "dataKeys" : [ {
                 "name" : "latitude",
@@ -240,14 +255,14 @@
                 "label" : "latitude",
                 "color" : "#2196f3",
                 "settings" : { },
-                "_hash" : 0.43312948821197783
+                "_hash" : 0.3827396600308983
               }, {
                 "name" : "longitude",
                 "type" : "timeseries",
                 "label" : "longitude",
                 "color" : "#4caf50",
                 "settings" : { },
-                "_hash" : 0.0877930488948242
+                "_hash" : 0.7608230381323071
               } ],
               "latestDataKeys" : [ ]
             } ],
@@ -377,13 +392,13 @@
                   "sizeX" : 8,
                   "sizeY" : 13,
                   "row" : 0,
-                  "col" : 14
+                  "col" : 17
                 },
                 "9991b630-f869-9e62-ba87-48bdd9ccba64" : {
                   "sizeX" : 8,
                   "sizeY" : 6,
-                  "row" : 6,
-                  "col" : 6
+                  "row" : 0,
+                  "col" : 8
                 }
               },
               "gridSettings" : {
@@ -425,6 +440,16 @@
             "resolveMultiple" : true,
             "deviceType" : "fire_truck",
             "deviceNameFilter" : ""
+          }
+        },
+        "f128401a-01b9-d282-3ae7-d1ae02f79a57" : {
+          "id" : "f128401a-01b9-d282-3ae7-d1ae02f79a57",
+          "alias" : "current_veichle",
+          "filter" : {
+            "type" : "stateEntityOwner",
+            "resolveMultiple" : false,
+            "stateEntityParamName" : null,
+            "defaultStateEntity" : null
           }
         }
       },
