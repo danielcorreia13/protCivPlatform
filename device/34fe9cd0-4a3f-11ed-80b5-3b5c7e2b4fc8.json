@@ -30,7 +30,7 @@
       "id" : "34fe9cd0-4a3f-11ed-80b5-3b5c7e2b4fc8"
     },
     "label" : "",
-    "name" : "Full_level",
+    "name" : "Full_Level",
     "ownerId" : null,
     "softwareId" : null,
     "tenantId" : null,
@@ -42,7 +42,15 @@
     "credentialsValue" : null
   },
   "attributes" : {
-    "SERVER_SCOPE" : [ ],
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : false,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "active",
+      "lastUpdateTs" : 1665587085182,
+      "longValue" : null,
+      "strValue" : null
+    } ],
     "SHARED_SCOPE" : [ ]
   }
 }
