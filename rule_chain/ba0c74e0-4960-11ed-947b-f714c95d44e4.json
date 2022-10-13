@@ -1,0 +1,56 @@
+{
+  "entityType" : "RULE_CHAIN",
+  "entity" : {
+    "additionalInfo" : {
+      "description" : ""
+    },
+    "configuration" : null,
+    "createdTime" : 1665491530542,
+    "debugMode" : false,
+    "externalId" : null,
+    "firstRuleNodeId" : {
+      "entityType" : "RULE_NODE",
+      "id" : "6552b500-4b1c-11ed-947b-f714c95d44e4"
+    },
+    "id" : {
+      "entityType" : "RULE_CHAIN",
+      "id" : "ba0c74e0-4960-11ed-947b-f714c95d44e4"
+    },
+    "name" : "TestRuleChain",
+    "root" : false,
+    "tenantId" : null,
+    "type" : "CORE"
+  },
+  "metaData" : {
+    "connections" : null,
+    "firstNodeIndex" : 0,
+    "nodes" : [ {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 381,
+        "layoutY" : 143
+      },
+      "configuration" : {
+        "groupNamePattern" : "fires",
+        "createGroupIfNotExists" : false,
+        "removeFromCurrentGroups" : false,
+        "groupCacheExpiration" : 300
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "6552b500-4b1c-11ed-947b-f714c95d44e4"
+      },
+      "name" : "CreateFire",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.action.TbAddToGroupNode"
+    } ],
+    "ruleChainConnections" : null
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}
