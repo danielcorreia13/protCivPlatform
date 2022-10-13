@@ -508,6 +508,20 @@
                 "openInSeparateDialog" : false,
                 "openInPopover" : false,
                 "id" : "2e6e928b-310e-1eb1-00e8-7d4f6d4f6b36"
+              } ],
+              "rowClick" : [ {
+                "name" : "GoToEvent",
+                "icon" : "more_horiz",
+                "useShowWidgetActionFunction" : null,
+                "showWidgetActionFunction" : "return true;",
+                "type" : "openDashboardState",
+                "targetDashboardStateId" : "fire",
+                "setEntityId" : true,
+                "stateEntityParamName" : null,
+                "openRightLayout" : false,
+                "openInSeparateDialog" : false,
+                "openInPopover" : false,
+                "id" : "2bfee144-ccc4-d29f-b66b-31498f15849b"
               } ]
             }
           },
@@ -779,7 +793,7 @@
         },
         "f128401a-01b9-d282-3ae7-d1ae02f79a57" : {
           "id" : "f128401a-01b9-d282-3ae7-d1ae02f79a57",
-          "alias" : "current_veichle",
+          "alias" : "current",
           "filter" : {
             "type" : "stateEntity",
             "resolveMultiple" : false,
