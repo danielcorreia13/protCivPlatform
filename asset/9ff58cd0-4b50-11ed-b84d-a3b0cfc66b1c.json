@@ -1,0 +1,25 @@
+{
+  "entityType" : "ASSET",
+  "entity" : {
+    "additionalInfo" : null,
+    "createdTime" : 1665704517149,
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "externalId" : null,
+    "id" : {
+      "entityType" : "ASSET",
+      "id" : "9ff58cd0-4b50-11ed-b84d-a3b0cfc66b1c"
+    },
+    "label" : "new_event",
+    "name" : "fire_15",
+    "ownerId" : null,
+    "tenantId" : null,
+    "type" : "event"
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}
