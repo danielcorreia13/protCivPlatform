@@ -1,7 +1,9 @@
 {
   "entityType" : "ASSET",
   "entity" : {
-    "additionalInfo" : null,
+    "additionalInfo" : {
+      "description" : ""
+    },
     "createdTime" : 1665683002315,
     "customerId" : {
       "entityType" : "CUSTOMER",
@@ -13,13 +15,21 @@
       "id" : "881e69b0-4b1e-11ed-88cf-3bc720ab387f"
     },
     "label" : "fire1",
-    "name" : "Fire1",
+    "name" : "event_fire_1",
     "ownerId" : null,
     "tenantId" : null,
     "type" : "fire"
   },
   "relations" : [ ],
   "attributes" : {
-    "SERVER_SCOPE" : [ ]
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : true,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "active",
+      "lastUpdateTs" : 1665683821384,
+      "longValue" : null,
+      "strValue" : null
+    } ]
   }
 }
