@@ -786,6 +786,12 @@
                   "sizeY" : 13,
                   "row" : 6,
                   "col" : 0
+                },
+                "8b208166-307e-69f1-70e5-8c5439aa30f2" : {
+                  "sizeX" : 8,
+                  "sizeY" : 6,
+                  "row" : 13,
+                  "col" : 8
                 }
               },
               "gridSettings" : {
@@ -834,8 +840,8 @@
                 "8b208166-307e-69f1-70e5-8c5439aa30f2" : {
                   "sizeX" : 8,
                   "sizeY" : 6,
-                  "row" : 0,
-                  "col" : 0
+                  "row" : 1,
+                  "col" : 1
                 }
               },
               "gridSettings" : {
