@@ -276,6 +276,23 @@
               "id" : "47f8b1d0-4b49-11ed-945a-e9eba22b9df6"
             }
           }
+        },
+        "493a6919-ada9-df90-f8db-e7ebe0f00681" : {
+          "id" : "493a6919-ada9-df90-f8db-e7ebe0f00681",
+          "alias" : "Search_Fire",
+          "filter" : {
+            "type" : "assetSearchQuery",
+            "resolveMultiple" : true,
+            "rootStateEntity" : true,
+            "stateEntityParamName" : null,
+            "defaultStateEntity" : null,
+            "rootEntity" : null,
+            "direction" : "FROM",
+            "maxLevel" : 1,
+            "fetchLastLevelOnly" : false,
+            "relationType" : "Contains",
+            "assetTypes" : [ "event_fire" ]
+          }
         }
       },
       "filters" : { },
