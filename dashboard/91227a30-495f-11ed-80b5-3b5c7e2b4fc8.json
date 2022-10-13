@@ -592,83 +592,6 @@
           "col" : 0,
           "id" : "c2bd730e-5f69-49b9-6fb2-e7edb1ca4cca"
         },
-        "0bb020e9-1f62-b3a9-c471-6c11239774f0" : {
-          "isSystemType" : true,
-          "bundleAlias" : "cards",
-          "typeAlias" : "timeseries_table",
-          "type" : "timeseries",
-          "title" : "New widget",
-          "image" : null,
-          "description" : null,
-          "sizeX" : 8,
-          "sizeY" : 6.5,
-          "config" : {
-            "datasources" : [ {
-              "type" : "entity",
-              "name" : null,
-              "entityAliasId" : "8d926adf-2942-b5a7-1dc0-45cd0fec5918",
-              "filterId" : null,
-              "dataKeys" : [ {
-                "name" : "latitude",
-                "type" : "timeseries",
-                "label" : "latitude",
-                "color" : "#2196f3",
-                "settings" : { },
-                "_hash" : 0.38483434860659793
-              }, {
-                "name" : "longitude",
-                "type" : "timeseries",
-                "label" : "longitude",
-                "color" : "#4caf50",
-                "settings" : { },
-                "_hash" : 0.2577659600867104
-              } ],
-              "latestDataKeys" : [ ]
-            } ],
-            "timewindow" : {
-              "realtime" : {
-                "interval" : 1000,
-                "timewindowMs" : 60000
-              },
-              "aggregation" : {
-                "type" : "NONE",
-                "limit" : 200
-              }
-            },
-            "showTitle" : false,
-            "backgroundColor" : "rgb(255, 255, 255)",
-            "color" : "rgba(0, 0, 0, 0.87)",
-            "padding" : "8px",
-            "settings" : {
-              "showTimestamp" : true,
-              "displayPagination" : true,
-              "defaultPageSize" : 10
-            },
-            "title" : "New Timeseries table",
-            "dropShadow" : true,
-            "enableFullscreen" : true,
-            "titleStyle" : {
-              "fontSize" : "16px",
-              "fontWeight" : 400,
-              "padding" : "5px 10px 5px 10px"
-            },
-            "useDashboardTimewindow" : true,
-            "showLegend" : false,
-            "widgetStyle" : { },
-            "actions" : { },
-            "showTitleIcon" : false,
-            "iconColor" : "rgba(0, 0, 0, 0.87)",
-            "iconSize" : "24px",
-            "displayTimewindow" : true,
-            "enableDataExport" : true,
-            "widgetCss" : "",
-            "pageSize" : 1024,
-            "noDataDisplayMessage" : ""
-          },
-          "row" : 0,
-          "col" : 0,
-          "id" : "0bb020e9-1f62-b3a9-c471-6c11239774f0"
-        },
         "8b208166-307e-69f1-70e5-8c5439aa30f2" : {
           "isSystemType" : true,
           "bundleAlias" : "cards",
@@ -780,12 +703,6 @@
                   "sizeY" : 13,
                   "row" : 0,
                   "col" : 8
-                },
-                "0bb020e9-1f62-b3a9-c471-6c11239774f0" : {
-                  "sizeX" : 8,
-                  "sizeY" : 13,
-                  "row" : 6,
-                  "col" : 0
                 },
                 "8b208166-307e-69f1-70e5-8c5439aa30f2" : {
                   "sizeX" : 8,
