@@ -33,7 +33,7 @@
       "entityType" : "ENTITY_GROUP",
       "id" : "d54b8cc0-4af3-11ed-88cf-3bc720ab387f"
     },
-    "name" : "vehicle",
+    "name" : "Vehicles",
     "ownerId" : {
       "entityType" : "TENANT",
       "id" : "dc4ab370-495e-11ed-945a-e9eba22b9df6"
