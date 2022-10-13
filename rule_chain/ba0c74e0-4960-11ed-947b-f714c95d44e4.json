@@ -10,7 +10,7 @@
     "externalId" : null,
     "firstRuleNodeId" : {
       "entityType" : "RULE_NODE",
-      "id" : "6552b500-4b1c-11ed-947b-f714c95d44e4"
+      "id" : "a95c2830-4b1c-11ed-88cf-3bc720ab387f"
     },
     "id" : {
       "entityType" : "RULE_CHAIN",
@@ -22,17 +22,40 @@
     "type" : "CORE"
   },
   "metaData" : {
-    "connections" : null,
+    "connections" : [ {
+      "fromIndex" : 0,
+      "toIndex" : 1,
+      "type" : "True"
+    } ],
     "firstNodeIndex" : 0,
     "nodes" : [ {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 381,
-        "layoutY" : 143
+        "layoutX" : 344,
+        "layoutY" : 148
+      },
+      "configuration" : {
+        "originatorTypes" : [ "ASSET" ]
+      },
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "a95c2830-4b1c-11ed-88cf-3bc720ab387f"
+      },
+      "name" : "CreateAsset",
+      "ruleChainId" : null,
+      "type" : "org.thingsboard.rule.engine.filter.TbOriginatorTypeFilterNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 329,
+        "layoutY" : 334
       },
       "configuration" : {
         "groupNamePattern" : "fires",
-        "createGroupIfNotExists" : false,
+        "createGroupIfNotExists" : true,
         "removeFromCurrentGroups" : false,
         "groupCacheExpiration" : 300
       },
@@ -41,9 +64,9 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "6552b500-4b1c-11ed-947b-f714c95d44e4"
+        "id" : "a95c4f40-4b1c-11ed-88cf-3bc720ab387f"
       },
-      "name" : "CreateFire",
+      "name" : "AddToFires",
       "ruleChainId" : null,
       "type" : "org.thingsboard.rule.engine.action.TbAddToGroupNode"
     } ],
