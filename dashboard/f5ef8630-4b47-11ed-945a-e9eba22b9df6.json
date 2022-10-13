@@ -142,8 +142,8 @@
             "assetNameFilter" : ""
           }
         },
-        "d0a7febe-04ff-5561-f904-e4baf3262fdc" : {
-          "id" : "d0a7febe-04ff-5561-f904-e4baf3262fdc",
+        "a77aa9c9-8074-d885-bfee-f3634e6b0e8a" : {
+          "id" : "a77aa9c9-8074-d885-bfee-f3634e6b0e8a",
           "alias" : "Fire 2",
           "filter" : {
             "type" : "singleEntity",
@@ -151,6 +151,18 @@
             "singleEntity" : {
               "entityType" : "ASSET",
               "id" : "7b6c5830-4b23-11ed-b84d-a3b0cfc66b1c"
+            }
+          }
+        },
+        "c775802b-63b9-85e7-3a0f-0dff8d76623f" : {
+          "id" : "c775802b-63b9-85e7-3a0f-0dff8d76623f",
+          "alias" : "Fire 3",
+          "filter" : {
+            "type" : "singleEntity",
+            "resolveMultiple" : false,
+            "singleEntity" : {
+              "entityType" : "ASSET",
+              "id" : "47f8b1d0-4b49-11ed-945a-e9eba22b9df6"
             }
           }
         }
