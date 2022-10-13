@@ -676,6 +676,54 @@
           "row" : 0,
           "col" : 0,
           "id" : "7154e6ea-85a0-77b5-8c10-db2d31d31cf0"
+        },
+        "017752fc-30cc-7ddd-82d1-176004357979" : {
+          "isSystemType" : true,
+          "bundleAlias" : "cards",
+          "typeAlias" : "attributes_card",
+          "type" : "latest",
+          "title" : "New widget",
+          "image" : null,
+          "description" : null,
+          "sizeX" : 7.5,
+          "sizeY" : 3,
+          "config" : {
+            "datasources" : [ {
+              "type" : "entity",
+              "name" : null,
+              "entityAliasId" : "f128401a-01b9-d282-3ae7-d1ae02f79a57",
+              "filterId" : null,
+              "dataKeys" : [ {
+                "name" : "name",
+                "type" : "entityField",
+                "label" : "Name",
+                "color" : "#2196f3",
+                "settings" : { },
+                "_hash" : 0.14365063097180708
+              }, {
+                "name" : "type",
+                "type" : "entityField",
+                "label" : "Type",
+                "color" : "#4caf50",
+                "settings" : { },
+                "_hash" : 0.1351812416611311
+              } ]
+            } ],
+            "timewindow" : {
+              "realtime" : {
+                "timewindowMs" : 60000
+              }
+            },
+            "showTitle" : true,
+            "backgroundColor" : "#fff",
+            "color" : "rgba(0, 0, 0, 0.87)",
+            "padding" : "8px",
+            "settings" : { },
+            "title" : "New Attributes card"
+          },
+          "row" : 0,
+          "col" : 0,
+          "id" : "017752fc-30cc-7ddd-82d1-176004357979"
         }
       },
       "states" : {
@@ -758,6 +806,12 @@
                   "sizeY" : 6,
                   "row" : 1,
                   "col" : 1
+                },
+                "017752fc-30cc-7ddd-82d1-176004357979" : {
+                  "sizeX" : 7,
+                  "sizeY" : 3,
+                  "row" : 1,
+                  "col" : 10
                 }
               },
               "gridSettings" : {
