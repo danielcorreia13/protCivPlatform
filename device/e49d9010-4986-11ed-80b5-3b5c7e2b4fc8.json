@@ -2,7 +2,7 @@
   "entityType" : "DEVICE",
   "entity" : {
     "additionalInfo" : {
-      "gateway" : true,
+      "gateway" : false,
       "overwriteActivityTime" : false,
       "description" : ""
     },
@@ -42,7 +42,47 @@
     "credentialsValue" : null
   },
   "attributes" : {
-    "SERVER_SCOPE" : [ ],
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : true,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "active",
+      "lastUpdateTs" : 1665685747400,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "inactivityAlarmTime",
+      "lastUpdateTs" : 1665508546469,
+      "longValue" : 1665508546466,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastActivityTime",
+      "lastUpdateTs" : 1665686782329,
+      "longValue" : 1665686779491,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastConnectTime",
+      "lastUpdateTs" : 1665686704641,
+      "longValue" : 1665686704641,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastDisconnectTime",
+      "lastUpdateTs" : 1665686659488,
+      "longValue" : 1665686659488,
+      "strValue" : null
+    } ],
     "SHARED_SCOPE" : [ ]
   }
 }
