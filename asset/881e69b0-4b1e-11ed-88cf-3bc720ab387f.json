@@ -18,7 +18,7 @@
     "name" : "event_fire_1",
     "ownerId" : null,
     "tenantId" : null,
-    "type" : "fire"
+    "type" : "event_fire"
   },
   "relations" : [ ],
   "attributes" : {
