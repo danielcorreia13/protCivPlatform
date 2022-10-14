@@ -182,7 +182,23 @@
               "entityAliasId" : "efa283f4-7962-bc66-6c94-899e9e503768",
               "filterId" : null,
               "dataKeys" : [ ]
-            } ]
+            } ],
+            "actions" : {
+              "rowClick" : [ {
+                "name" : "Bombeiros Locais",
+                "icon" : "visibility",
+                "useShowWidgetActionFunction" : null,
+                "showWidgetActionFunction" : "return true;",
+                "type" : "openDashboardState",
+                "targetDashboardStateId" : "default",
+                "setEntityId" : true,
+                "stateEntityParamName" : null,
+                "openRightLayout" : false,
+                "openInSeparateDialog" : false,
+                "openInPopover" : false,
+                "id" : "2e39c8e7-8d59-77a2-c18c-32082fab8aa6"
+              } ]
+            }
           },
           "row" : 0,
           "col" : 0,
