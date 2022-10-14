@@ -59,7 +59,23 @@
               "entityAliasId" : "9574460e-5ee3-1d25-a8d8-b019c43317ee",
               "filterId" : null,
               "dataKeys" : [ ]
-            } ]
+            } ],
+            "actions" : {
+              "rowClick" : [ {
+                "name" : "Go_To_Dep",
+                "icon" : "more_horiz",
+                "useShowWidgetActionFunction" : null,
+                "showWidgetActionFunction" : "return true;",
+                "type" : "openDashboardState",
+                "targetDashboardStateId" : "default",
+                "setEntityId" : true,
+                "stateEntityParamName" : null,
+                "openRightLayout" : false,
+                "openInSeparateDialog" : false,
+                "openInPopover" : false,
+                "id" : "b6e6c1dc-cc36-9fc0-4c5d-376218678347"
+              } ]
+            }
           },
           "row" : 0,
           "col" : 0,
