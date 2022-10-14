@@ -1559,22 +1559,20 @@
             "color" : "rgba(0, 0, 0, 0.87)",
             "padding" : "4px",
             "settings" : {
-              "entitiesTitle" : "",
+              "entitiesTitle" : "This Crash",
               "enableSearch" : true,
               "enableSelectColumnDisplay" : true,
               "enableStickyHeader" : true,
               "enableStickyAction" : true,
               "reserveSpaceForHiddenAction" : "true",
-              "displayEntityName" : true,
-              "entityNameColumnTitle" : "",
+              "displayEntityName" : false,
               "displayEntityLabel" : false,
-              "displayEntityType" : true,
-              "displayPagination" : true,
-              "defaultPageSize" : 10,
+              "displayEntityType" : false,
+              "displayPagination" : false,
               "defaultSortOrder" : "entityName",
               "useRowStyleFunction" : false
             },
-            "title" : "New Entities table",
+            "title" : "This Crash",
             "dropShadow" : true,
             "enableFullscreen" : true,
             "titleStyle" : {
@@ -1589,7 +1587,35 @@
               "name" : null,
               "entityAliasId" : "f128401a-01b9-d282-3ae7-d1ae02f79a57",
               "filterId" : null,
-              "dataKeys" : [ ]
+              "dataKeys" : [ {
+                "name" : "n_occupants",
+                "type" : "attribute",
+                "label" : "n_occupants",
+                "color" : "#2196f3",
+                "settings" : { },
+                "_hash" : 0.03936719658599541
+              }, {
+                "name" : "impact_speed",
+                "type" : "attribute",
+                "label" : "impact_speed",
+                "color" : "#4caf50",
+                "settings" : { },
+                "_hash" : 0.6102085535513235
+              }, {
+                "name" : "latitude",
+                "type" : "attribute",
+                "label" : "latitude",
+                "color" : "#f44336",
+                "settings" : { },
+                "_hash" : 0.03223812041761276
+              }, {
+                "name" : "longitude",
+                "type" : "attribute",
+                "label" : "longitude",
+                "color" : "#ffc107",
+                "settings" : { },
+                "_hash" : 0.013635427807501488
+              } ]
             } ],
             "actions" : {
               "actionCellButton" : [ {
@@ -1606,7 +1632,14 @@
                 "openInPopover" : false,
                 "id" : "01304d96-b887-d6c6-fc23-eaa100572ccc"
               } ]
-            }
+            },
+            "showTitleIcon" : false,
+            "titleTooltip" : "",
+            "enableDataExport" : true,
+            "widgetStyle" : { },
+            "widgetCss" : "",
+            "pageSize" : 1024,
+            "noDataDisplayMessage" : ""
           },
           "row" : 0,
           "col" : 0,
@@ -1835,7 +1868,7 @@
               "widgets" : {
                 "d9980532-afe3-001e-79f9-3226e5c10a5e" : {
                   "sizeX" : 10,
-                  "sizeY" : 5,
+                  "sizeY" : 4,
                   "row" : 0,
                   "col" : 0
                 },
