@@ -560,54 +560,6 @@
           "col" : 0,
           "id" : "7154e6ea-85a0-77b5-8c10-db2d31d31cf0"
         },
-        "017752fc-30cc-7ddd-82d1-176004357979" : {
-          "isSystemType" : true,
-          "bundleAlias" : "cards",
-          "typeAlias" : "attributes_card",
-          "type" : "latest",
-          "title" : "New widget",
-          "image" : null,
-          "description" : null,
-          "sizeX" : 7.5,
-          "sizeY" : 3,
-          "config" : {
-            "datasources" : [ {
-              "type" : "entity",
-              "name" : null,
-              "entityAliasId" : "f128401a-01b9-d282-3ae7-d1ae02f79a57",
-              "filterId" : null,
-              "dataKeys" : [ {
-                "name" : "name",
-                "type" : "entityField",
-                "label" : "Name",
-                "color" : "#2196f3",
-                "settings" : { },
-                "_hash" : 0.14365063097180708
-              }, {
-                "name" : "type",
-                "type" : "entityField",
-                "label" : "Type",
-                "color" : "#4caf50",
-                "settings" : { },
-                "_hash" : 0.1351812416611311
-              } ]
-            } ],
-            "timewindow" : {
-              "realtime" : {
-                "timewindowMs" : 60000
-              }
-            },
-            "showTitle" : true,
-            "backgroundColor" : "#fff",
-            "color" : "rgba(0, 0, 0, 0.87)",
-            "padding" : "8px",
-            "settings" : { },
-            "title" : "New Attributes card"
-          },
-          "row" : 0,
-          "col" : 0,
-          "id" : "017752fc-30cc-7ddd-82d1-176004357979"
-        },
         "5aaa73a3-6c8d-eba7-4e1a-f8ce3ac29896" : {
           "isSystemType" : true,
           "bundleAlias" : "cards",
@@ -786,6 +738,93 @@
           "row" : 0,
           "col" : 0,
           "id" : "fcb7cb56-5051-5b65-d18e-80fe2cb35098"
+        },
+        "624256b0-7bc3-be62-3c7b-4087eae7489e" : {
+          "isSystemType" : true,
+          "bundleAlias" : "cards",
+          "typeAlias" : "timeseries_table",
+          "type" : "timeseries",
+          "title" : "New widget",
+          "image" : null,
+          "description" : null,
+          "sizeX" : 8,
+          "sizeY" : 6.5,
+          "config" : {
+            "datasources" : [ {
+              "type" : "entity",
+              "name" : null,
+              "entityAliasId" : "92e97871-6497-bb2b-e841-3a0f3a264b03",
+              "filterId" : null,
+              "dataKeys" : [ {
+                "name" : "temperature",
+                "type" : "timeseries",
+                "label" : "temperature",
+                "color" : "#2196f3",
+                "settings" : { },
+                "_hash" : 0.15819804060862053
+              }, {
+                "name" : "wind_direction",
+                "type" : "timeseries",
+                "label" : "wind_direction",
+                "color" : "#4caf50",
+                "settings" : { },
+                "_hash" : 0.3788379447208112
+              }, {
+                "name" : "wind_speed",
+                "type" : "timeseries",
+                "label" : "wind_speed",
+                "color" : "#f44336",
+                "settings" : { },
+                "_hash" : 0.8708172544900901
+              } ],
+              "latestDataKeys" : [ ]
+            } ],
+            "timewindow" : {
+              "hideInterval" : false,
+              "hideAggregation" : false,
+              "hideAggInterval" : false,
+              "hideTimezone" : false,
+              "selectedTab" : 0,
+              "realtime" : {
+                "realtimeType" : 0,
+                "timewindowMs" : 604800000,
+                "quickInterval" : "CURRENT_DAY",
+                "interval" : 1000
+              },
+              "aggregation" : {
+                "type" : "NONE",
+                "limit" : 200
+              }
+            },
+            "showTitle" : true,
+            "backgroundColor" : "rgb(255, 255, 255)",
+            "color" : "rgba(0, 0, 0, 0.87)",
+            "padding" : "8px",
+            "settings" : {
+              "showTimestamp" : true,
+              "displayPagination" : true,
+              "defaultPageSize" : 10
+            },
+            "title" : "New Timeseries table",
+            "dropShadow" : true,
+            "enableFullscreen" : true,
+            "titleStyle" : {
+              "fontSize" : "16px",
+              "fontWeight" : 400,
+              "padding" : "5px 10px 5px 10px"
+            },
+            "useDashboardTimewindow" : false,
+            "showLegend" : false,
+            "widgetStyle" : { },
+            "actions" : { },
+            "showTitleIcon" : false,
+            "iconColor" : "rgba(0, 0, 0, 0.87)",
+            "iconSize" : "24px",
+            "displayTimewindow" : true
+          },
+          "row" : 0,
+          "col" : 0,
+          "id" : "624256b0-7bc3-be62-3c7b-4087eae7489e"
         }
       },
       "states" : {
@@ -863,17 +902,17 @@
                   "row" : 0,
                   "col" : 0
                 },
-                "017752fc-30cc-7ddd-82d1-176004357979" : {
-                  "sizeX" : 7,
-                  "sizeY" : 3,
-                  "row" : 0,
-                  "col" : 13
-                },
                 "5aaa73a3-6c8d-eba7-4e1a-f8ce3ac29896" : {
                   "sizeX" : 9,
                   "sizeY" : 6,
                   "row" : 5,
                   "col" : 0
+                },
+                "624256b0-7bc3-be62-3c7b-4087eae7489e" : {
+                  "sizeX" : 11,
+                  "sizeY" : 12,
+                  "row" : 0,
+                  "col" : 12
                 }
               },
               "gridSettings" : {
@@ -969,6 +1008,23 @@
             "fetchLastLevelOnly" : false,
             "relationType" : null,
             "assetTypes" : [ "fire_department" ]
+          }
+        },
+        "92e97871-6497-bb2b-e841-3a0f3a264b03" : {
+          "id" : "92e97871-6497-bb2b-e841-3a0f3a264b03",
+          "alias" : "fire_station",
+          "filter" : {
+            "type" : "deviceSearchQuery",
+            "resolveMultiple" : true,
+            "rootStateEntity" : true,
+            "stateEntityParamName" : null,
+            "defaultStateEntity" : null,
+            "rootEntity" : null,
+            "direction" : "FROM",
+            "maxLevel" : 1,
+            "fetchLastLevelOnly" : false,
+            "relationType" : null,
+            "deviceTypes" : [ "fire_detect" ]
           }
         }
       },
