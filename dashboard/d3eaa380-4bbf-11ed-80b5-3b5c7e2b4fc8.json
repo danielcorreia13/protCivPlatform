@@ -475,6 +475,40 @@
             "entityType" : "ASSET",
             "entityNameFilter" : "fire"
           }
+        },
+        "6a823a8b-2e9c-08d0-0c4a-216949f562ed" : {
+          "id" : "6a823a8b-2e9c-08d0-0c4a-216949f562ed",
+          "alias" : "Departamentos Bombeiros",
+          "filter" : {
+            "type" : "assetSearchQuery",
+            "resolveMultiple" : true,
+            "rootStateEntity" : true,
+            "stateEntityParamName" : null,
+            "defaultStateEntity" : null,
+            "rootEntity" : null,
+            "direction" : "FROM",
+            "maxLevel" : 2,
+            "fetchLastLevelOnly" : false,
+            "relationType" : "Contains",
+            "assetTypes" : [ "fire_department" ]
+          }
+        },
+        "48a49a74-d1d3-dc8b-7f8c-08026724eb68" : {
+          "id" : "48a49a74-d1d3-dc8b-7f8c-08026724eb68",
+          "alias" : "Hospitais",
+          "filter" : {
+            "type" : "assetSearchQuery",
+            "resolveMultiple" : true,
+            "rootStateEntity" : true,
+            "stateEntityParamName" : null,
+            "defaultStateEntity" : null,
+            "rootEntity" : null,
+            "direction" : "FROM",
+            "maxLevel" : 1,
+            "fetchLastLevelOnly" : false,
+            "relationType" : "Contains",
+            "assetTypes" : [ "hospital" ]
+          }
         }
       },
       "filters" : { },
