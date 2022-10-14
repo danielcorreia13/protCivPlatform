@@ -645,7 +645,7 @@
             "datasources" : [ {
               "type" : "entity",
               "name" : null,
-              "entityAliasId" : "f0945092-22ae-033c-954b-bc27fb9b05df",
+              "entityAliasId" : "0ba0bec3-c6e5-f99e-84f2-ebc5082355f0",
               "filterId" : null,
               "dataKeys" : [ {
                 "name" : "latitude",
@@ -729,7 +729,7 @@
               "showPoints" : false,
               "showPolygon" : false
             },
-            "title" : "Vehicles",
+            "title" : "Location",
             "dropShadow" : true,
             "enableFullscreen" : true,
             "titleStyle" : {
