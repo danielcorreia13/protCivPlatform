@@ -210,7 +210,7 @@
             "datasources" : [ {
               "type" : "entity",
               "name" : null,
-              "entityAliasId" : "767fb343-229c-fb13-f5a8-26366928641b",
+              "entityAliasId" : "7033032c-72c8-5f73-308a-742de6e0e2d8",
               "filterId" : null,
               "dataKeys" : [ ]
             } ]
@@ -1177,6 +1177,16 @@
             "resolveMultiple" : false,
             "stateEntityParamName" : null,
             "defaultStateEntity" : null
+          }
+        },
+        "7033032c-72c8-5f73-308a-742de6e0e2d8" : {
+          "id" : "7033032c-72c8-5f73-308a-742de6e0e2d8",
+          "alias" : "Crashes",
+          "filter" : {
+            "type" : "assetType",
+            "resolveMultiple" : true,
+            "assetType" : "event",
+            "assetNameFilter" : "crash"
           }
         }
       },
