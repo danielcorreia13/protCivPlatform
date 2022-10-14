@@ -340,6 +340,107 @@
           "row" : 0,
           "col" : 0,
           "id" : "06082a87-2c33-bc4c-f7e1-921d1c3ed03f"
+        },
+        "af455fca-9f0a-65c9-92ae-4ea6c094f98c" : {
+          "isSystemType" : true,
+          "bundleAlias" : "analogue_gauges",
+          "typeAlias" : "radial_gauge_canvas_gauges",
+          "type" : "latest",
+          "title" : "New widget",
+          "image" : null,
+          "description" : null,
+          "sizeX" : 6,
+          "sizeY" : 5,
+          "config" : {
+            "datasources" : [ {
+              "type" : "entity",
+              "name" : null,
+              "entityAliasId" : "26adcbfb-1a08-35e4-e80a-222f31e944e6",
+              "filterId" : null,
+              "dataKeys" : [ {
+                "name" : "water_level",
+                "type" : "timeseries",
+                "label" : "water_level",
+                "color" : "#2196f3",
+                "settings" : { },
+                "_hash" : 0.2730941371873039
+              } ]
+            } ],
+            "timewindow" : {
+              "realtime" : {
+                "timewindowMs" : 60000
+              }
+            },
+            "showTitle" : false,
+            "backgroundColor" : "rgb(255, 255, 255)",
+            "color" : "rgba(0, 0, 0, 0.87)",
+            "padding" : "8px",
+            "settings" : {
+              "startAngle" : 45,
+              "ticksAngle" : 270,
+              "needleCircleSize" : 10,
+              "defaultColor" : "#005ce6",
+              "minValue" : 0,
+              "maxValue" : 100,
+              "colorMajorTicks" : "#444",
+              "colorMinorTicks" : "#666",
+              "numbersFont" : {
+                "family" : "Roboto",
+                "size" : 18,
+                "style" : "normal",
+                "weight" : "500",
+                "color" : "#616161"
+              },
+              "showUnitTitle" : true,
+              "titleFont" : {
+                "family" : "Roboto",
+                "size" : 24,
+                "style" : "normal",
+                "weight" : "500",
+                "color" : "#888"
+              },
+              "unitsFont" : {
+                "family" : "Roboto",
+                "size" : 22,
+                "style" : "normal",
+                "weight" : "500",
+                "color" : "#616161"
+              },
+              "valueBox" : true,
+              "valueInt" : 3,
+              "valueFont" : {
+                "family" : "Segment7Standard",
+                "size" : 36,
+                "style" : "normal",
+                "weight" : "normal",
+                "shadowColor" : "rgba(0, 0, 0, 0.49)",
+                "color" : "#444"
+              },
+              "colorValueBoxRect" : "#888",
+              "colorValueBoxRectEnd" : "#666",
+              "colorValueBoxBackground" : "#babab2",
+              "colorValueBoxShadow" : "rgba(0,0,0,1)",
+              "showBorder" : true,
+              "colorPlate" : "#fff",
+              "colorNeedleShadowUp" : "rgba(2, 255, 255, 0)",
+              "colorNeedleShadowDown" : "rgba(188,143,143,0.45)",
+              "highlightsWidth" : 15,
+              "highlights" : [ ],
+              "animation" : true,
+              "animationDuration" : 500,
+              "animationRule" : "cycle"
+            },
+            "title" : "New Radial gauge",
+            "dropShadow" : true,
+            "enableFullscreen" : true,
+            "titleStyle" : {
+              "fontSize" : "16px",
+              "fontWeight" : 400
+            }
+          },
+          "row" : 0,
+          "col" : 0,
+          "id" : "af455fca-9f0a-65c9-92ae-4ea6c094f98c"
         }
       },
       "states" : {
@@ -404,6 +505,12 @@
                   "sizeY" : 5,
                   "row" : 0,
                   "col" : 0
+                },
+                "af455fca-9f0a-65c9-92ae-4ea6c094f98c" : {
+                  "sizeX" : 6,
+                  "sizeY" : 5,
+                  "row" : 0,
+                  "col" : 6
                 }
               },
               "gridSettings" : {
