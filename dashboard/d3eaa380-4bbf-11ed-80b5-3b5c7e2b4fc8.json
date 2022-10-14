@@ -1271,6 +1271,12 @@
                   "sizeY" : 5,
                   "row" : 5,
                   "col" : 0
+                },
+                "6831f769-ffe9-44d5-2d91-63394cf50197" : {
+                  "sizeX" : 18,
+                  "sizeY" : 12,
+                  "row" : 0,
+                  "col" : 6
                 }
               },
               "gridSettings" : {
