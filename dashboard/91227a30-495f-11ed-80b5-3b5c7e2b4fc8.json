@@ -1073,7 +1073,7 @@
             "actions" : { },
             "alarmStatusList" : [ ],
             "alarmSeverityList" : [ ],
-            "alarmTypeList" : [ "truck_alarm" ],
+            "alarmTypeList" : [ ],
             "searchPropagatedAlarms" : false,
             "datasources" : [ ]
           },
