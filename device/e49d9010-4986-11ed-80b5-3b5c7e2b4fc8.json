@@ -30,7 +30,7 @@
       "id" : "e49d9010-4986-11ed-80b5-3b5c7e2b4fc8"
     },
     "label" : "fire_detect_centro",
-    "name" : "Fire Detection Centro",
+    "name" : "Fire Detection A",
     "ownerId" : null,
     "softwareId" : null,
     "tenantId" : null,
@@ -43,11 +43,11 @@
   },
   "attributes" : {
     "SERVER_SCOPE" : [ {
-      "booleanValue" : true,
+      "booleanValue" : false,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "active",
-      "lastUpdateTs" : 1665685747400,
+      "lastUpdateTs" : 1665705166480,
       "longValue" : null,
       "strValue" : null
     }, {
@@ -55,32 +55,48 @@
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "inactivityAlarmTime",
-      "lastUpdateTs" : 1665508546469,
-      "longValue" : 1665508546466,
+      "lastUpdateTs" : 1665705166480,
+      "longValue" : 1665705166466,
       "strValue" : null
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "lastActivityTime",
-      "lastUpdateTs" : 1665686782329,
-      "longValue" : 1665686779491,
+      "lastUpdateTs" : 1665704515334,
+      "longValue" : 1665704514473,
       "strValue" : null
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "lastConnectTime",
-      "lastUpdateTs" : 1665686704641,
-      "longValue" : 1665686704641,
+      "lastUpdateTs" : 1665697554294,
+      "longValue" : 1665697554294,
       "strValue" : null
     }, {
       "booleanValue" : null,
       "doubleValue" : null,
       "jsonValue" : null,
       "key" : "lastDisconnectTime",
-      "lastUpdateTs" : 1665686659488,
-      "longValue" : 1665686659488,
+      "lastUpdateTs" : 1665704815331,
+      "longValue" : 1665704815331,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 40.5,
+      "jsonValue" : null,
+      "key" : "latitude",
+      "lastUpdateTs" : 1665700339403,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : -8.7,
+      "jsonValue" : null,
+      "key" : "longitude",
+      "lastUpdateTs" : 1665700359576,
+      "longValue" : null,
       "strValue" : null
     } ],
     "SHARED_SCOPE" : [ ]
