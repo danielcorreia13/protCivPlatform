@@ -548,10 +548,17 @@
           "id" : "e0cf4248-fafa-c262-2c7c-433128bc8ebd",
           "alias" : "FireTrucks",
           "filter" : {
-            "type" : "deviceType",
+            "type" : "deviceSearchQuery",
             "resolveMultiple" : true,
-            "deviceType" : "fire_truck",
-            "deviceNameFilter" : ""
+            "rootStateEntity" : true,
+            "stateEntityParamName" : null,
+            "defaultStateEntity" : null,
+            "rootEntity" : null,
+            "direction" : "FROM",
+            "maxLevel" : 1,
+            "fetchLastLevelOnly" : false,
+            "relationType" : "Contains",
+            "deviceTypes" : [ "fire_truck" ]
           }
         },
         "26b59ee1-c672-13cd-a34c-c4322949c0ce" : {
