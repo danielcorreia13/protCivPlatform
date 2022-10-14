@@ -502,18 +502,18 @@
                 "_hash" : 0.6588418951443418
               }, {
                 "name" : "latitude",
-                "type" : "timeseries",
+                "type" : "attribute",
                 "label" : "latitude",
                 "color" : "#607d8b",
                 "settings" : { },
-                "_hash" : 0.1851174571948655
+                "_hash" : 0.09800318039401601
               }, {
                 "name" : "longitude",
-                "type" : "timeseries",
+                "type" : "attribute",
                 "label" : "longitude",
                 "color" : "#9c27b0",
                 "settings" : { },
-                "_hash" : 0.3792078511461816
+                "_hash" : 0.4824793494061401
               } ]
             },
             "alarmSearchStatus" : "ANY",
