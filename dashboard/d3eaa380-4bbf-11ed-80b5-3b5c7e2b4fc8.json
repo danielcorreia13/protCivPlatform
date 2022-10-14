@@ -15,10 +15,10 @@
     "image" : null,
     "mobileHide" : false,
     "mobileOrder" : null,
-    "name" : "Proteção Civil Distrital",
+    "name" : "Proteção Civil: Distrital",
     "ownerId" : null,
     "tenantId" : null,
-    "title" : "Proteção Civil Distrital"
+    "title" : "Proteção Civil: Distrital"
   },
   "relations" : [ ],
   "attributes" : {
