@@ -60,7 +60,23 @@
               "entityAliasId" : "e66451dd-1e60-e018-3554-12003abdaba3",
               "filterId" : null,
               "dataKeys" : [ ]
-            } ]
+            } ],
+            "actions" : {
+              "rowClick" : [ {
+                "name" : "Protecao Civil Local",
+                "icon" : "more_horiz",
+                "useShowWidgetActionFunction" : null,
+                "showWidgetActionFunction" : "return true;",
+                "type" : "openDashboardState",
+                "targetDashboardStateId" : "protecao_civil_locais",
+                "setEntityId" : true,
+                "stateEntityParamName" : null,
+                "openRightLayout" : false,
+                "openInSeparateDialog" : false,
+                "openInPopover" : false,
+                "id" : "1db0c686-d171-9e2b-163d-6f233d50ec14"
+              } ]
+            }
           },
           "row" : 0,
           "col" : 0,
