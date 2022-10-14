@@ -1,0 +1,27 @@
+{
+  "entityType" : "DASHBOARD",
+  "entity" : {
+    "assignedCustomers" : null,
+    "configuration" : {
+      "description" : ""
+    },
+    "createdTime" : 1665752278456,
+    "customerId" : null,
+    "externalId" : null,
+    "id" : {
+      "entityType" : "DASHBOARD",
+      "id" : "d3eaa380-4bbf-11ed-80b5-3b5c7e2b4fc8"
+    },
+    "image" : null,
+    "mobileHide" : false,
+    "mobileOrder" : null,
+    "name" : "Proteção Civil Distrital",
+    "ownerId" : null,
+    "tenantId" : null,
+    "title" : "Proteção Civil Distrital"
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}
