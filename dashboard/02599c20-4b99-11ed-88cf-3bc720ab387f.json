@@ -39,8 +39,7 @@
               "displayEntityName" : true,
               "displayEntityLabel" : false,
               "displayEntityType" : false,
-              "displayPagination" : true,
-              "defaultPageSize" : 10,
+              "displayPagination" : false,
               "defaultSortOrder" : "entityName",
               "useRowStyleFunction" : false
             },
@@ -116,8 +115,7 @@
               "displayEntityName" : true,
               "displayEntityLabel" : false,
               "displayEntityType" : false,
-              "displayPagination" : true,
-              "defaultPageSize" : 10,
+              "displayPagination" : false,
               "defaultSortOrder" : "entityName",
               "useRowStyleFunction" : false
             },
@@ -193,8 +191,7 @@
               "displayEntityName" : true,
               "displayEntityLabel" : false,
               "displayEntityType" : false,
-              "displayPagination" : true,
-              "defaultPageSize" : 10,
+              "displayPagination" : false,
               "defaultSortOrder" : "entityName",
               "useRowStyleFunction" : false
             },
@@ -1000,22 +997,22 @@
             "main" : {
               "widgets" : {
                 "beecb264-6961-4206-69cc-1146f75921c0" : {
-                  "sizeX" : 6,
-                  "sizeY" : 7,
+                  "sizeX" : 12,
+                  "sizeY" : 6,
                   "row" : 0,
                   "col" : 0
                 },
                 "ff0d7b4b-c181-42fe-d20c-27ffa2b5f43f" : {
                   "sizeX" : 6,
                   "sizeY" : 7,
-                  "row" : 0,
-                  "col" : 6
+                  "row" : 6,
+                  "col" : 0
                 },
                 "d33bb224-4b71-b508-fbcb-a4c20768b64e" : {
                   "sizeX" : 6,
                   "sizeY" : 7,
-                  "row" : 7,
-                  "col" : 1
+                  "row" : 6,
+                  "col" : 6
                 },
                 "71480263-5d42-db9e-621b-9f785fe65161" : {
                   "sizeX" : 10,
