@@ -680,7 +680,7 @@
                 "icon" : "open_in_new",
                 "useShowWidgetActionFunction" : null,
                 "showWidgetActionFunction" : "return true;",
-                "type" : "updateDashboardState",
+                "type" : "openDashboardState",
                 "targetDashboardStateId" : "fire",
                 "setEntityId" : true,
                 "stateEntityParamName" : null,
