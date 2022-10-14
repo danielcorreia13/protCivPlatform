@@ -302,22 +302,22 @@
             "color" : "rgba(0, 0, 0, 0.87)",
             "padding" : "4px",
             "settings" : {
-              "entitiesTitle" : "",
+              "entitiesTitle" : "Current Fire",
               "enableSearch" : true,
               "enableSelectColumnDisplay" : true,
               "enableStickyHeader" : true,
               "enableStickyAction" : true,
               "reserveSpaceForHiddenAction" : "true",
               "displayEntityName" : true,
-              "entityNameColumnTitle" : "",
+              "entityNameColumnTitle" : "Fire_id",
               "displayEntityLabel" : false,
-              "displayEntityType" : true,
+              "displayEntityType" : false,
               "displayPagination" : true,
               "defaultPageSize" : 10,
               "defaultSortOrder" : "entityName",
               "useRowStyleFunction" : false
             },
-            "title" : "New Entities table",
+            "title" : "Current Fire",
             "dropShadow" : true,
             "enableFullscreen" : true,
             "titleStyle" : {
@@ -339,6 +339,20 @@
                 "color" : "#2196f3",
                 "settings" : { },
                 "_hash" : 0.13752601543562726
+              }, {
+                "name" : "latitude",
+                "type" : "attribute",
+                "label" : "latitude",
+                "color" : "#4caf50",
+                "settings" : { },
+                "_hash" : 0.10908444939583961
+              }, {
+                "name" : "longitude",
+                "type" : "attribute",
+                "label" : "longitude",
+                "color" : "#f44336",
+                "settings" : { },
+                "_hash" : 0.8004714453211124
               } ]
             } ],
             "actions" : {
@@ -359,7 +373,7 @@
               "rowClick" : [ ],
               "actionCellButton" : [ {
                 "name" : "AddRelation",
-                "icon" : "more_horiz",
+                "icon" : "menu",
                 "useShowWidgetActionFunction" : null,
                 "showWidgetActionFunction" : "return true;",
                 "type" : "customPretty",
@@ -371,7 +385,17 @@
                 "openInPopover" : false,
                 "id" : "b120a279-5e1c-1416-c72b-adafa6396870"
               } ]
-            }
+            },
+            "showTitleIcon" : true,
+            "titleTooltip" : "",
+            "enableDataExport" : true,
+            "widgetStyle" : { },
+            "widgetCss" : "",
+            "pageSize" : 1024,
+            "noDataDisplayMessage" : "",
+            "titleIcon" : "pin_drop",
+            "iconColor" : "rgba(255,0,0,0.87)",
+            "iconSize" : "24px"
           },
           "row" : 0,
           "col" : 0,
@@ -741,10 +765,10 @@
             "main" : {
               "widgets" : {
                 "8b208166-307e-69f1-70e5-8c5439aa30f2" : {
-                  "sizeX" : 11,
+                  "sizeX" : 12,
                   "sizeY" : 5,
-                  "row" : 1,
-                  "col" : 1
+                  "row" : 0,
+                  "col" : 0
                 },
                 "017752fc-30cc-7ddd-82d1-176004357979" : {
                   "sizeX" : 7,
@@ -755,7 +779,7 @@
                 "5aaa73a3-6c8d-eba7-4e1a-f8ce3ac29896" : {
                   "sizeX" : 9,
                   "sizeY" : 6,
-                  "row" : 7,
+                  "row" : 5,
                   "col" : 0
                 }
               },
