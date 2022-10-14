@@ -867,11 +867,11 @@
               "selectedTab" : 1,
               "history" : {
                 "historyType" : 0,
-                "timewindowMs" : 120000,
+                "timewindowMs" : 60000,
                 "interval" : 1000,
                 "fixedTimewindow" : {
-                  "startTimeMs" : 1665659040201,
-                  "endTimeMs" : 1665745440201
+                  "startTimeMs" : 1665660197693,
+                  "endTimeMs" : 1665746597693
                 },
                 "quickInterval" : "CURRENT_DAY"
               },
@@ -1071,7 +1071,7 @@
             "widgetStyle" : { },
             "displayTimewindow" : true,
             "actions" : { },
-            "alarmStatusList" : [ ],
+            "alarmStatusList" : [ "ACTIVE" ],
             "alarmSeverityList" : [ ],
             "alarmTypeList" : [ ],
             "searchPropagatedAlarms" : false,
@@ -1152,7 +1152,7 @@
             "main" : {
               "widgets" : {
                 "8b208166-307e-69f1-70e5-8c5439aa30f2" : {
-                  "sizeX" : 12,
+                  "sizeX" : 13,
                   "sizeY" : 5,
                   "row" : 0,
                   "col" : 0
