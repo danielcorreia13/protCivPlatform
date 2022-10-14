@@ -479,18 +479,6 @@
                 },
                 "_hash" : 0.2780007688856758
               }, {
-                "name" : "type",
-                "type" : "alarm",
-                "label" : "Type",
-                "color" : "#f44336",
-                "settings" : {
-                  "useCellStyleFunction" : false,
-                  "cellStyleFunction" : "",
-                  "useCellContentFunction" : false,
-                  "cellContentFunction" : ""
-                },
-                "_hash" : 0.7323586880398418
-              }, {
                 "name" : "severity",
                 "type" : "alarm",
                 "label" : "Severity",
@@ -512,6 +500,20 @@
                   "cellContentFunction" : ""
                 },
                 "_hash" : 0.6588418951443418
+              }, {
+                "name" : "latitude",
+                "type" : "timeseries",
+                "label" : "latitude",
+                "color" : "#607d8b",
+                "settings" : { },
+                "_hash" : 0.1851174571948655
+              }, {
+                "name" : "longitude",
+                "type" : "timeseries",
+                "label" : "longitude",
+                "color" : "#9c27b0",
+                "settings" : { },
+                "_hash" : 0.3792078511461816
               } ]
             },
             "alarmSearchStatus" : "ANY",
