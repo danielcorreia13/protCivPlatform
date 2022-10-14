@@ -958,10 +958,10 @@
             "main" : {
               "widgets" : {
                 "d6b55d0a-079b-7c05-cc8e-528760e823c4" : {
-                  "sizeX" : 6,
-                  "sizeY" : 7,
-                  "row" : 3,
-                  "col" : 9
+                  "sizeX" : 8,
+                  "sizeY" : 6,
+                  "row" : 4,
+                  "col" : 7
                 },
                 "6831f769-ffe9-44d5-2d91-63394cf50197" : {
                   "sizeX" : 10,
@@ -970,14 +970,14 @@
                   "col" : 15
                 },
                 "5aaa73a3-6c8d-eba7-4e1a-f8ce3ac29896" : {
-                  "sizeX" : 5,
-                  "sizeY" : 7,
-                  "row" : 6,
+                  "sizeX" : 7,
+                  "sizeY" : 6,
+                  "row" : 4,
                   "col" : 0
                 },
                 "9c6dd8a8-2a03-5a1c-e7b8-182f34eafc63" : {
                   "sizeX" : 7,
-                  "sizeY" : 3,
+                  "sizeY" : 4,
                   "row" : 0,
                   "col" : 0
                 }
