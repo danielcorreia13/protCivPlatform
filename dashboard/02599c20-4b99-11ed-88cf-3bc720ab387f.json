@@ -754,20 +754,7 @@
             } ],
             "widgetStyle" : { },
             "actions" : {
-              "nodeSelected" : [ {
-                "name" : "go_to_dashboard",
-                "icon" : "more_horiz",
-                "useShowWidgetActionFunction" : null,
-                "showWidgetActionFunction" : "return true;",
-                "type" : "openDashboardState",
-                "targetDashboardStateId" : "default",
-                "setEntityId" : true,
-                "stateEntityParamName" : null,
-                "openRightLayout" : false,
-                "openInSeparateDialog" : false,
-                "openInPopover" : false,
-                "id" : "2507b2d2-990b-62d7-00bc-159df3285cd5"
-              } ]
+              "nodeSelected" : [ ]
             },
             "showTitleIcon" : false,
             "titleTooltip" : "",
