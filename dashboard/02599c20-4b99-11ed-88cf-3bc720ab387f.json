@@ -906,16 +906,16 @@
                   "col" : 13
                 },
                 "bf7240d8-0cff-95cd-768e-d32bd0727079" : {
-                  "sizeX" : 13,
+                  "sizeX" : 6,
                   "sizeY" : 6,
                   "row" : 0,
                   "col" : 0
                 },
                 "a3c92d01-c91a-8176-fdf4-1c8635e04013" : {
-                  "sizeX" : 13,
+                  "sizeX" : 6,
                   "sizeY" : 6,
-                  "row" : 6,
-                  "col" : 0
+                  "row" : 0,
+                  "col" : 6
                 }
               },
               "gridSettings" : {
