@@ -1299,6 +1299,239 @@
           "row" : 0,
           "col" : 0,
           "id" : "6fdb63ae-16d5-0201-cb1f-62d260638482"
+        },
+        "4e5b45f4-2fe9-8776-77b9-4221da131855" : {
+          "isSystemType" : true,
+          "bundleAlias" : "alarm_widgets",
+          "typeAlias" : "alarms_table",
+          "type" : "alarm",
+          "title" : "New widget",
+          "image" : null,
+          "description" : null,
+          "sizeX" : 10.5,
+          "sizeY" : 6.5,
+          "config" : {
+            "timewindow" : {
+              "realtime" : {
+                "interval" : 1000,
+                "timewindowMs" : 86400000
+              },
+              "aggregation" : {
+                "type" : "NONE",
+                "limit" : 200
+              }
+            },
+            "showTitle" : true,
+            "backgroundColor" : "rgb(255, 255, 255)",
+            "color" : "rgba(0, 0, 0, 0.87)",
+            "padding" : "4px",
+            "settings" : {
+              "enableSelection" : true,
+              "enableSearch" : true,
+              "displayDetails" : true,
+              "allowAcknowledgment" : true,
+              "allowClear" : true,
+              "displayPagination" : true,
+              "defaultPageSize" : 10,
+              "defaultSortOrder" : "-createdTime",
+              "enableSelectColumnDisplay" : true,
+              "enableStickyAction" : false,
+              "enableFilter" : true
+            },
+            "title" : "New Alarms table",
+            "dropShadow" : true,
+            "enableFullscreen" : true,
+            "titleStyle" : {
+              "fontSize" : "16px",
+              "fontWeight" : 400,
+              "padding" : "5px 10px 5px 10px"
+            },
+            "useDashboardTimewindow" : false,
+            "showLegend" : false,
+            "alarmSource" : {
+              "type" : "entity",
+              "name" : null,
+              "entityAliasId" : "b82d4861-4728-7127-6038-6693e5bc6c51",
+              "filterId" : null,
+              "dataKeys" : [ {
+                "name" : "createdTime",
+                "type" : "alarm",
+                "label" : "Created time",
+                "color" : "#2196f3",
+                "settings" : {
+                  "useCellStyleFunction" : false,
+                  "cellStyleFunction" : "",
+                  "useCellContentFunction" : false,
+                  "cellContentFunction" : ""
+                },
+                "_hash" : 0.021092237451093787
+              }, {
+                "name" : "originator",
+                "type" : "alarm",
+                "label" : "Originator",
+                "color" : "#4caf50",
+                "settings" : {
+                  "useCellStyleFunction" : false,
+                  "cellStyleFunction" : "",
+                  "useCellContentFunction" : false,
+                  "cellContentFunction" : ""
+                },
+                "_hash" : 0.2780007688856758
+              }, {
+                "name" : "severity",
+                "type" : "alarm",
+                "label" : "Severity",
+                "color" : "#ffc107",
+                "settings" : {
+                  "useCellStyleFunction" : false,
+                  "useCellContentFunction" : false
+                },
+                "_hash" : 0.09927019860088193
+              }, {
+                "name" : "status",
+                "type" : "alarm",
+                "label" : "Status",
+                "color" : "#607d8b",
+                "settings" : {
+                  "useCellStyleFunction" : false,
+                  "cellStyleFunction" : "",
+                  "useCellContentFunction" : false,
+                  "cellContentFunction" : ""
+                },
+                "_hash" : 0.6588418951443418
+              }, {
+                "name" : "latitude",
+                "type" : "timeseries",
+                "label" : "latitude",
+                "color" : "#607d8b",
+                "settings" : { },
+                "_hash" : 0.8031781038446899
+              }, {
+                "name" : "longitude",
+                "type" : "timeseries",
+                "label" : "longitude",
+                "color" : "#9c27b0",
+                "settings" : { },
+                "_hash" : 0.8627161370066536
+              } ]
+            },
+            "alarmSearchStatus" : "ANY",
+            "alarmsPollingInterval" : 5,
+            "showTitleIcon" : false,
+            "titleIcon" : "more_horiz",
+            "iconColor" : "rgba(0, 0, 0, 0.87)",
+            "iconSize" : "24px",
+            "titleTooltip" : "",
+            "widgetStyle" : { },
+            "displayTimewindow" : true,
+            "actions" : {
+              "actionCellButton" : [ {
+                "name" : "CreateEvent",
+                "icon" : "open_in_new",
+                "useShowWidgetActionFunction" : null,
+                "showWidgetActionFunction" : "return true;",
+                "type" : "custom",
+                "customFunction" : "let $injector = widgetContext.$scope.$injector;\nlet customDialog = $injector.get(widgetContext.servicesMap\n    .get('customDialog'));\nlet assetService = $injector.get(widgetContext.servicesMap\n    .get('assetService'));\nlet deviceService = $injector.get(widgetContext.servicesMap\n    .get('deviceService'));\nlet attributeService = $injector.get(widgetContext\n    .servicesMap.get('attributeService'));\nlet alarmService = $injector.get(widgetContext.servicesMap\n    .get('alarmService'));\nlet entityRelationService = $injector.get(widgetContext\n    .servicesMap.get('entityRelationService'));\nlet entityService = $injector.get(widgetContext\n    .servicesMap.get('entityService'));\nlet dialogs = $injector.get(widgetContext.servicesMap.get('dialogs'));\n\n//let id = new TenantId(\"dd43e080-495e-11ed-945a-e9eba22b9df6\");\n\n\nopenDeleteDeviceDialog();\n\nfunction openDeleteDeviceDialog() {\n    let title = \"Do you want to create \" + \"crash_\" + entityName + \"?\";\n    let content = \"Asset will be created\";\n    dialogs.confirm(title, content, 'Cancel', 'Create').subscribe(\n        function(result) {\n            if (result) {\n                createAsset();\n            }\n        }\n    );\n}\n\nfunction createAsset(){\n    let device = deviceService.getDevice(entityId.id);\n    \n    let entity = {\n        name: \"crash_\" + entityName,\n        type: \"event\",\n        label: \"new_event\"\n    };\n    \n    let d_name = device.type;\n    \n    assetService.saveAsset(entity).subscribe(\n        function(entity) {\n            widgetContext.rxjs.forkJoin([\n                saveAttributes(entity.id),\n            ]).subscribe(\n                    function() {\n                        alert(\"done\");\n                        widgetContext.updateAliases();\n    \n                    }\n                )\n        }\n    );\n    \n    \n    function saveAttributes(entity) {\n        widgetContext.rxjs.forkJoin([\n                attributeService\n                .getEntityAttributes(entityId,\n                    'SERVER_SCOPE'),\n            ]).subscribe(\n                function(data) {\n                    let attribute_lat = data[0][5][\n                        \"value\"\n                    ];\n                    let attribute_long = data[0][6][\n                        \"value\"\n                    ];\n                    let attributesArray = [];\n                    attributesArray.push({\n                        key: \"latitude\",\n                        value: attribute_lat\n                    });\n                    attributesArray.push({\n                        key: \"longitude\",\n                        value: attribute_long\n                    });\n                    return attributeService.saveEntityAttributes(entity.id,\"SERVER_SCOPE\",attributesArray);\n                }\n            );\n    }\n}\n",
+                "openInSeparateDialog" : false,
+                "openInPopover" : false,
+                "id" : "23dca7de-4441-2e0a-e7e9-58e209d64a53"
+              } ]
+            },
+            "alarmStatusList" : [ ],
+            "alarmSeverityList" : [ ],
+            "alarmTypeList" : [ ],
+            "searchPropagatedAlarms" : false,
+            "datasources" : [ ]
+          },
+          "row" : 0,
+          "col" : 0,
+          "id" : "4e5b45f4-2fe9-8776-77b9-4221da131855"
+        },
+        "f597fb13-135e-c81c-c0fe-a93e82c61797" : {
+          "isSystemType" : true,
+          "bundleAlias" : "cards",
+          "typeAlias" : "entities_table",
+          "type" : "latest",
+          "title" : "New widget",
+          "image" : null,
+          "description" : null,
+          "sizeX" : 7.5,
+          "sizeY" : 6.5,
+          "config" : {
+            "timewindow" : {
+              "realtime" : {
+                "interval" : 1000,
+                "timewindowMs" : 86400000
+              },
+              "aggregation" : {
+                "type" : "NONE",
+                "limit" : 200
+              }
+            },
+            "showTitle" : true,
+            "backgroundColor" : "rgb(255, 255, 255)",
+            "color" : "rgba(0, 0, 0, 0.87)",
+            "padding" : "4px",
+            "settings" : {
+              "entitiesTitle" : "",
+              "enableSearch" : true,
+              "enableSelectColumnDisplay" : true,
+              "enableStickyHeader" : true,
+              "enableStickyAction" : true,
+              "reserveSpaceForHiddenAction" : "true",
+              "displayEntityName" : true,
+              "entityNameColumnTitle" : "",
+              "displayEntityLabel" : false,
+              "displayEntityType" : true,
+              "displayPagination" : true,
+              "defaultPageSize" : 10,
+              "defaultSortOrder" : "entityName",
+              "useRowStyleFunction" : false
+            },
+            "title" : "New Entities table",
+            "dropShadow" : true,
+            "enableFullscreen" : true,
+            "titleStyle" : {
+              "fontSize" : "16px",
+              "fontWeight" : 400,
+              "padding" : "5px 10px 5px 10px"
+            },
+            "useDashboardTimewindow" : false,
+            "showLegend" : false,
+            "datasources" : [ {
+              "type" : "entity",
+              "name" : null,
+              "entityAliasId" : "58279e93-7a20-9eaf-a0e1-a8737d0bf5ea",
+              "filterId" : null,
+              "dataKeys" : [ {
+                "name" : "name",
+                "type" : "entityField",
+                "label" : "Name",
+                "color" : "#2196f3",
+                "settings" : { },
+                "_hash" : 0.763641511845552
+              } ]
+            } ],
+            "actions" : {
+              "actionCellButton" : [ {
+                "name" : "GoToCrash",
+                "icon" : "open_in_new",
+                "useShowWidgetActionFunction" : null,
+                "showWidgetActionFunction" : "return true;",
+                "type" : "openDashboardState",
+                "targetDashboardStateId" : "crash",
+                "setEntityId" : true,
+                "stateEntityParamName" : null,
+                "openRightLayout" : false,
+                "openInSeparateDialog" : false,
+                "openInPopover" : false,
+                "id" : "23d12814-0d3e-8f3c-be50-80e7b28031ac"
+              } ]
+            }
+          },
+          "row" : 0,
+          "col" : 0,
+          "id" : "f597fb13-135e-c81c-c0fe-a93e82c61797"
         }
       },
       "states" : {
@@ -1325,6 +1558,18 @@
                   "sizeY" : 6,
                   "row" : 6,
                   "col" : 0
+                },
+                "4e5b45f4-2fe9-8776-77b9-4221da131855" : {
+                  "sizeX" : 17,
+                  "sizeY" : 6,
+                  "row" : 12,
+                  "col" : 0
+                },
+                "f597fb13-135e-c81c-c0fe-a93e82c61797" : {
+                  "sizeX" : 13,
+                  "sizeY" : 6,
+                  "row" : 6,
+                  "col" : 11
                 }
               },
               "gridSettings" : {
@@ -1437,6 +1682,21 @@
               }
             }
           }
+        },
+        "crash" : {
+          "name" : "${entityName}: details",
+          "root" : false,
+          "layouts" : {
+            "main" : {
+              "widgets" : { },
+              "gridSettings" : {
+                "backgroundColor" : "#eeeeee",
+                "columns" : 24,
+                "margin" : 10,
+                "backgroundSizeMode" : "100%"
+              }
+            }
+          }
         }
       },
       "entityAliases" : {
@@ -1482,7 +1742,7 @@
         },
         "298f7b0d-9ec9-3da5-fec7-0b7d77d481b2" : {
           "id" : "298f7b0d-9ec9-3da5-fec7-0b7d77d481b2",
-          "alias" : "events",
+          "alias" : "fires",
           "filter" : {
             "type" : "assetType",
             "resolveMultiple" : true,
@@ -1539,6 +1799,26 @@
             "fetchLastLevelOnly" : false,
             "relationType" : null,
             "deviceTypes" : [ "fire_detect" ]
+          }
+        },
+        "b82d4861-4728-7127-6038-6693e5bc6c51" : {
+          "id" : "b82d4861-4728-7127-6038-6693e5bc6c51",
+          "alias" : "crash_detectors",
+          "filter" : {
+            "type" : "deviceType",
+            "resolveMultiple" : true,
+            "deviceType" : "car_sensors",
+            "deviceNameFilter" : ""
+          }
+        },
+        "58279e93-7a20-9eaf-a0e1-a8737d0bf5ea" : {
+          "id" : "58279e93-7a20-9eaf-a0e1-a8737d0bf5ea",
+          "alias" : "crashes",
+          "filter" : {
+            "type" : "assetType",
+            "resolveMultiple" : true,
+            "assetType" : "event",
+            "assetNameFilter" : "crash"
           }
         }
       },
