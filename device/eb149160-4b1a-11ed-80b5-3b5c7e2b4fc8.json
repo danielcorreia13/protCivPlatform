@@ -30,7 +30,7 @@
       "id" : "eb149160-4b1a-11ed-80b5-3b5c7e2b4fc8"
     },
     "label" : "",
-    "name" : "CarBrand_A",
+    "name" : "Car_A",
     "ownerId" : null,
     "softwareId" : null,
     "tenantId" : null,
@@ -42,7 +42,23 @@
     "credentialsValue" : null
   },
   "attributes" : {
-    "SERVER_SCOPE" : [ ],
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : false,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "active",
+      "lastUpdateTs" : 1665682074460,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "inactivityAlarmTime",
+      "lastUpdateTs" : 1665682074460,
+      "longValue" : 1665682074455,
+      "strValue" : null
+    } ],
     "SHARED_SCOPE" : [ ]
   }
 }
