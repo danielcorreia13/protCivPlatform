@@ -875,7 +875,20 @@
             },
             "pageSize" : 1024,
             "noDataDisplayMessage" : "",
-            "showLegend" : false
+            "showLegend" : false,
+            "actions" : {
+              "headerButton" : [ {
+                "name" : "aaaa",
+                "icon" : "more_horiz",
+                "useShowWidgetActionFunction" : null,
+                "showWidgetActionFunction" : "return true;",
+                "type" : "custom",
+                "customFunction" : null,
+                "openInSeparateDialog" : false,
+                "openInPopover" : false,
+                "id" : "7fc2b540-2a0f-f502-6dbe-b68abaee5a43"
+              } ]
+            }
           },
           "row" : 0,
           "col" : 0,
