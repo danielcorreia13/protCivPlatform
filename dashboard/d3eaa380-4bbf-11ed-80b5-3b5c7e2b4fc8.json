@@ -136,7 +136,23 @@
               "entityAliasId" : "767fb343-229c-fb13-f5a8-26366928641b",
               "filterId" : null,
               "dataKeys" : [ ]
-            } ]
+            } ],
+            "actions" : {
+              "rowClick" : [ {
+                "name" : "Go_To_Incident",
+                "icon" : "more_horiz",
+                "useShowWidgetActionFunction" : null,
+                "showWidgetActionFunction" : "return true;",
+                "type" : "openDashboardState",
+                "targetDashboardStateId" : "fire",
+                "setEntityId" : true,
+                "stateEntityParamName" : null,
+                "openRightLayout" : false,
+                "openInSeparateDialog" : false,
+                "openInPopover" : false,
+                "id" : "6d0fab8c-ac0f-527e-c7fe-9cefd59bfe4b"
+              } ]
+            }
           },
           "row" : 0,
           "col" : 0,
@@ -552,6 +568,21 @@
                   "col" : 7
                 }
               },
+              "gridSettings" : {
+                "backgroundColor" : "#eeeeee",
+                "columns" : 24,
+                "margin" : 10,
+                "backgroundSizeMode" : "100%"
+              }
+            }
+          }
+        },
+        "fire" : {
+          "name" : "fire",
+          "root" : false,
+          "layouts" : {
+            "main" : {
+              "widgets" : { },
               "gridSettings" : {
                 "backgroundColor" : "#eeeeee",
                 "columns" : 24,
