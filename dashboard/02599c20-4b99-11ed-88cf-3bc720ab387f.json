@@ -565,16 +565,16 @@
             "main" : {
               "widgets" : {
                 "954efd03-fb05-004b-832d-4a4f9fb7ebc6" : {
-                  "sizeX" : 6,
-                  "sizeY" : 7,
+                  "sizeX" : 4,
+                  "sizeY" : 6,
                   "row" : 0,
                   "col" : 0
                 },
                 "c20ccd1d-63e8-162b-ef6c-5f0cdb044676" : {
-                  "sizeX" : 5,
+                  "sizeX" : 4,
                   "sizeY" : 6,
                   "row" : 0,
-                  "col" : 6
+                  "col" : 4
                 }
               },
               "gridSettings" : {
