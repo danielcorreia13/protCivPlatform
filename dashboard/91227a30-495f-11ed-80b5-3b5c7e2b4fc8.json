@@ -308,12 +308,10 @@
               "enableStickyHeader" : true,
               "enableStickyAction" : true,
               "reserveSpaceForHiddenAction" : "true",
-              "displayEntityName" : true,
-              "entityNameColumnTitle" : "Fire_id",
+              "displayEntityName" : false,
               "displayEntityLabel" : false,
               "displayEntityType" : false,
-              "displayPagination" : true,
-              "defaultPageSize" : 10,
+              "displayPagination" : false,
               "defaultSortOrder" : "entityName",
               "useRowStyleFunction" : false
             },
@@ -896,16 +894,12 @@
               "hideAggregation" : false,
               "hideAggInterval" : false,
               "hideTimezone" : false,
-              "selectedTab" : 1,
-              "history" : {
-                "historyType" : 0,
-                "timewindowMs" : 300000,
-                "interval" : 1000,
-                "fixedTimewindow" : {
-                  "startTimeMs" : 1665660197693,
-                  "endTimeMs" : 1665746597693
-                },
-                "quickInterval" : "CURRENT_DAY"
+              "selectedTab" : 0,
+              "realtime" : {
+                "realtimeType" : 0,
+                "timewindowMs" : 120000,
+                "quickInterval" : "CURRENT_DAY",
+                "interval" : 1000
               },
               "aggregation" : {
                 "type" : "NONE",
@@ -1008,15 +1002,17 @@
             "settings" : {
               "enableSelection" : true,
               "enableSearch" : true,
+              "enableSelectColumnDisplay" : true,
+              "enableFilter" : true,
+              "enableStickyHeader" : true,
+              "enableStickyAction" : false,
+              "reserveSpaceForHiddenAction" : "true",
               "displayDetails" : true,
               "allowAcknowledgment" : true,
               "allowClear" : true,
-              "displayPagination" : true,
-              "defaultPageSize" : 10,
+              "displayPagination" : false,
               "defaultSortOrder" : "-createdTime",
-              "enableSelectColumnDisplay" : true,
-              "enableStickyAction" : false,
-              "enableFilter" : true
+              "useRowStyleFunction" : false
             },
             "title" : "New Alarms table",
             "dropShadow" : true,
@@ -2099,32 +2095,32 @@
               "widgets" : {
                 "8b208166-307e-69f1-70e5-8c5439aa30f2" : {
                   "sizeX" : 13,
-                  "sizeY" : 5,
+                  "sizeY" : 4,
                   "row" : 0,
                   "col" : 0
                 },
                 "5aaa73a3-6c8d-eba7-4e1a-f8ce3ac29896" : {
                   "sizeX" : 5,
                   "sizeY" : 5,
-                  "row" : 5,
+                  "row" : 4,
                   "col" : 0
                 },
                 "d6b55d0a-079b-7c05-cc8e-528760e823c4" : {
                   "sizeX" : 8,
                   "sizeY" : 5,
-                  "row" : 5,
+                  "row" : 4,
                   "col" : 5
                 },
                 "6831f769-ffe9-44d5-2d91-63394cf50197" : {
                   "sizeX" : 10,
-                  "sizeY" : 10,
+                  "sizeY" : 9,
                   "row" : 0,
                   "col" : 13
                 },
                 "80a56412-cc53-f933-d98a-aadff3bce3d7" : {
                   "sizeX" : 24,
-                  "sizeY" : 6,
-                  "row" : 10,
+                  "sizeY" : 5,
+                  "row" : 9,
                   "col" : 0
                 }
               },
