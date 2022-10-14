@@ -726,6 +726,40 @@
             "assetType" : "event",
             "assetNameFilter" : "%fire%"
           }
+        },
+        "6ac8fc66-83f7-ba46-a0d2-9595801a8ae3" : {
+          "id" : "6ac8fc66-83f7-ba46-a0d2-9595801a8ae3",
+          "alias" : "designated_trucks",
+          "filter" : {
+            "type" : "deviceSearchQuery",
+            "resolveMultiple" : true,
+            "rootStateEntity" : true,
+            "stateEntityParamName" : null,
+            "defaultStateEntity" : null,
+            "rootEntity" : null,
+            "direction" : "FROM",
+            "maxLevel" : 2,
+            "fetchLastLevelOnly" : false,
+            "relationType" : "Contains",
+            "deviceTypes" : [ "fire_truck" ]
+          }
+        },
+        "256d5813-0335-c5fe-c090-2cf746d2fd3d" : {
+          "id" : "256d5813-0335-c5fe-c090-2cf746d2fd3d",
+          "alias" : "designated_dep",
+          "filter" : {
+            "type" : "assetSearchQuery",
+            "resolveMultiple" : true,
+            "rootStateEntity" : true,
+            "stateEntityParamName" : null,
+            "defaultStateEntity" : null,
+            "rootEntity" : null,
+            "direction" : "FROM",
+            "maxLevel" : 1,
+            "fetchLastLevelOnly" : false,
+            "relationType" : null,
+            "assetTypes" : [ "fire_department" ]
+          }
         }
       },
       "filters" : { },
