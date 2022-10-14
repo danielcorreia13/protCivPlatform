@@ -1,0 +1,27 @@
+{
+  "entityType" : "DASHBOARD",
+  "entity" : {
+    "assignedCustomers" : null,
+    "configuration" : {
+      "description" : ""
+    },
+    "createdTime" : 1665755938231,
+    "customerId" : null,
+    "externalId" : null,
+    "id" : {
+      "entityType" : "DASHBOARD",
+      "id" : "594ffc70-4bc8-11ed-88cf-3bc720ab387f"
+    },
+    "image" : null,
+    "mobileHide" : false,
+    "mobileOrder" : null,
+    "name" : "Departamento de Bombeiros",
+    "ownerId" : null,
+    "tenantId" : null,
+    "title" : "Departamento de Bombeiros"
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}
