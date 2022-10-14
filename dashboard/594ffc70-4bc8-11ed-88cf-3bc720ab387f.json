@@ -4,14 +4,82 @@
     "assignedCustomers" : null,
     "configuration" : {
       "description" : "",
-      "widgets" : { },
+      "widgets" : {
+        "69d7abc7-9ed4-a7b6-658a-ce27a1fe0327" : {
+          "isSystemType" : true,
+          "bundleAlias" : "cards",
+          "typeAlias" : "entities_table",
+          "type" : "latest",
+          "title" : "New widget",
+          "image" : null,
+          "description" : null,
+          "sizeX" : 7.5,
+          "sizeY" : 6.5,
+          "config" : {
+            "timewindow" : {
+              "realtime" : {
+                "interval" : 1000,
+                "timewindowMs" : 86400000
+              },
+              "aggregation" : {
+                "type" : "NONE",
+                "limit" : 200
+              }
+            },
+            "showTitle" : true,
+            "backgroundColor" : "rgb(255, 255, 255)",
+            "color" : "rgba(0, 0, 0, 0.87)",
+            "padding" : "4px",
+            "settings" : {
+              "enableSearch" : true,
+              "enableSelectColumnDisplay" : true,
+              "enableStickyHeader" : true,
+              "enableStickyAction" : true,
+              "reserveSpaceForHiddenAction" : "true",
+              "displayEntityName" : true,
+              "displayEntityLabel" : false,
+              "displayEntityType" : false,
+              "displayPagination" : false,
+              "defaultSortOrder" : "entityName",
+              "useRowStyleFunction" : false
+            },
+            "title" : "New Entities table",
+            "dropShadow" : true,
+            "enableFullscreen" : true,
+            "titleStyle" : {
+              "fontSize" : "16px",
+              "fontWeight" : 400,
+              "padding" : "5px 10px 5px 10px"
+            },
+            "useDashboardTimewindow" : false,
+            "showLegend" : false,
+            "datasources" : [ {
+              "type" : "entity",
+              "name" : null,
+              "entityAliasId" : "9574460e-5ee3-1d25-a8d8-b019c43317ee",
+              "filterId" : null,
+              "dataKeys" : [ ]
+            } ]
+          },
+          "row" : 0,
+          "col" : 0,
+          "id" : "69d7abc7-9ed4-a7b6-658a-ce27a1fe0327"
+        }
+      },
       "states" : {
         "default" : {
           "name" : "Departamento de Bombeiros",
           "root" : true,
           "layouts" : {
             "main" : {
-              "widgets" : { },
+              "widgets" : {
+                "69d7abc7-9ed4-a7b6-658a-ce27a1fe0327" : {
+                  "sizeX" : 7,
+                  "sizeY" : 6,
+                  "row" : 0,
+                  "col" : 0
+                }
+              },
               "gridSettings" : {
                 "backgroundColor" : "#eeeeee",
                 "columns" : 24,
