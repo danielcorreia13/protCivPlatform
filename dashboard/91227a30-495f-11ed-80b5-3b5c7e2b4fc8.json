@@ -1875,7 +1875,7 @@
               "chunkedLoading" : false,
               "removeOutsideVisibleBounds" : true
             },
-            "title" : "New HERE Map",
+            "title" : "Active Emergencies",
             "dropShadow" : true,
             "enableFullscreen" : true,
             "titleStyle" : {
@@ -1885,7 +1885,13 @@
             "useDashboardTimewindow" : true,
             "showLegend" : false,
             "widgetStyle" : { },
-            "actions" : { }
+            "actions" : { },
+            "showTitleIcon" : false,
+            "titleTooltip" : "",
+            "enableDataExport" : true,
+            "widgetCss" : "",
+            "pageSize" : 1024,
+            "noDataDisplayMessage" : ""
           },
           "row" : 0,
           "col" : 0,
