@@ -1759,7 +1759,7 @@
             "datasources" : [ {
               "type" : "entity",
               "name" : null,
-              "entityAliasId" : "298f7b0d-9ec9-3da5-fec7-0b7d77d481b2",
+              "entityAliasId" : "64945bbe-79d2-1c2d-b495-653c354b71a6",
               "filterId" : null,
               "dataKeys" : [ {
                 "name" : "latitude",
@@ -1775,26 +1775,6 @@
                 "color" : "#4caf50",
                 "settings" : { },
                 "_hash" : 0.9760670306582957
-              } ]
-            }, {
-              "type" : "entity",
-              "name" : null,
-              "entityAliasId" : "58279e93-7a20-9eaf-a0e1-a8737d0bf5ea",
-              "filterId" : null,
-              "dataKeys" : [ {
-                "name" : "latitude",
-                "type" : "attribute",
-                "label" : "latitude 2",
-                "color" : "#f44336",
-                "settings" : { },
-                "_hash" : 0.626838914761449
-              }, {
-                "name" : "longitude",
-                "type" : "attribute",
-                "label" : "longitude 2",
-                "color" : "#ffc107",
-                "settings" : { },
-                "_hash" : 0.3038059567935705
               } ]
             } ],
             "timewindow" : {
@@ -2266,6 +2246,16 @@
             "fetchLastLevelOnly" : false,
             "relationType" : "Contains",
             "assetTypes" : [ "event" ]
+          }
+        },
+        "64945bbe-79d2-1c2d-b495-653c354b71a6" : {
+          "id" : "64945bbe-79d2-1c2d-b495-653c354b71a6",
+          "alias" : "events",
+          "filter" : {
+            "type" : "assetType",
+            "resolveMultiple" : true,
+            "assetType" : "event",
+            "assetNameFilter" : ""
           }
         }
       },
