@@ -80,6 +80,66 @@
           "row" : 0,
           "col" : 0,
           "id" : "69d7abc7-9ed4-a7b6-658a-ce27a1fe0327"
+        },
+        "f80bbd1b-db40-c373-3f13-2013668ed85d" : {
+          "isSystemType" : true,
+          "bundleAlias" : "cards",
+          "typeAlias" : "entities_table",
+          "type" : "latest",
+          "title" : "New widget",
+          "image" : null,
+          "description" : null,
+          "sizeX" : 7.5,
+          "sizeY" : 6.5,
+          "config" : {
+            "timewindow" : {
+              "realtime" : {
+                "interval" : 1000,
+                "timewindowMs" : 86400000
+              },
+              "aggregation" : {
+                "type" : "NONE",
+                "limit" : 200
+              }
+            },
+            "showTitle" : true,
+            "backgroundColor" : "rgb(255, 255, 255)",
+            "color" : "rgba(0, 0, 0, 0.87)",
+            "padding" : "4px",
+            "settings" : {
+              "enableSearch" : true,
+              "enableSelectColumnDisplay" : true,
+              "enableStickyHeader" : true,
+              "enableStickyAction" : true,
+              "reserveSpaceForHiddenAction" : "true",
+              "displayEntityName" : true,
+              "displayEntityLabel" : false,
+              "displayEntityType" : false,
+              "displayPagination" : false,
+              "defaultSortOrder" : "entityName",
+              "useRowStyleFunction" : false
+            },
+            "title" : "New Entities table",
+            "dropShadow" : true,
+            "enableFullscreen" : true,
+            "titleStyle" : {
+              "fontSize" : "16px",
+              "fontWeight" : 400,
+              "padding" : "5px 10px 5px 10px"
+            },
+            "useDashboardTimewindow" : false,
+            "showLegend" : false,
+            "datasources" : [ {
+              "type" : "entity",
+              "name" : null,
+              "entityAliasId" : "e0cf4248-fafa-c262-2c7c-433128bc8ebd",
+              "filterId" : null,
+              "dataKeys" : [ ]
+            } ]
+          },
+          "row" : 0,
+          "col" : 0,
+          "id" : "f80bbd1b-db40-c373-3f13-2013668ed85d"
         }
       },
       "states" : {
@@ -110,7 +170,14 @@
           "root" : false,
           "layouts" : {
             "main" : {
-              "widgets" : { },
+              "widgets" : {
+                "f80bbd1b-db40-c373-3f13-2013668ed85d" : {
+                  "sizeX" : 7,
+                  "sizeY" : 8,
+                  "row" : 0,
+                  "col" : 0
+                }
+              },
               "gridSettings" : {
                 "backgroundColor" : "#eeeeee",
                 "columns" : 24,
@@ -140,6 +207,16 @@
             "fetchLastLevelOnly" : false,
             "relationType" : "Contains",
             "assetTypes" : [ "fire_department" ]
+          }
+        },
+        "e0cf4248-fafa-c262-2c7c-433128bc8ebd" : {
+          "id" : "e0cf4248-fafa-c262-2c7c-433128bc8ebd",
+          "alias" : "FireTrucks",
+          "filter" : {
+            "type" : "deviceType",
+            "resolveMultiple" : true,
+            "deviceType" : "fire_truck",
+            "deviceNameFilter" : ""
           }
         }
       },
