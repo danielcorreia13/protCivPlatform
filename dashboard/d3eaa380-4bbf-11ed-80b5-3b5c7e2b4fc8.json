@@ -439,7 +439,21 @@
               "name" : null,
               "entityAliasId" : "6a823a8b-2e9c-08d0-0c4a-216949f562ed",
               "filterId" : null,
-              "dataKeys" : [ ]
+              "dataKeys" : [ {
+                "name" : "n_operacionais_disponiveis",
+                "type" : "attribute",
+                "label" : "n_operacionais_disponiveis",
+                "color" : "#2196f3",
+                "settings" : { },
+                "_hash" : 0.8492279819397466
+              }, {
+                "name" : "n_veiculos_disponiveis",
+                "type" : "attribute",
+                "label" : "n_veiculos_disponiveis",
+                "color" : "#4caf50",
+                "settings" : { },
+                "_hash" : 0.8313277958660155
+              } ]
             } ]
           },
           "row" : 0,
