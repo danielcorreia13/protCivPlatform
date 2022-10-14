@@ -1264,6 +1264,19 @@
                 "openInSeparateDialog" : false,
                 "openInPopover" : false,
                 "id" : "23dca7de-4441-2e0a-e7e9-58e209d64a53"
+              }, {
+                "name" : "GoToCrash",
+                "icon" : "open_in_new",
+                "useShowWidgetActionFunction" : null,
+                "showWidgetActionFunction" : "return true;",
+                "type" : "openDashboardState",
+                "targetDashboardStateId" : "crash",
+                "setEntityId" : true,
+                "stateEntityParamName" : null,
+                "openRightLayout" : false,
+                "openInSeparateDialog" : false,
+                "openInPopover" : false,
+                "id" : "82065b33-82e6-062c-4bbc-3fbba465f338"
               } ]
             },
             "alarmStatusList" : [ ],
