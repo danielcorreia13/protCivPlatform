@@ -201,7 +201,7 @@
             } ],
             "actions" : {
               "rowClick" : [ {
-                "name" : "Bombeiros Locais",
+                "name" : "Hospitais Locais",
                 "icon" : "visibility",
                 "useShowWidgetActionFunction" : null,
                 "showWidgetActionFunction" : "return true;",
