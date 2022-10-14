@@ -537,7 +537,7 @@
               "id" : "a80aac80-4b1d-11ed-947b-f714c95d44e4"
             },
             "direction" : "FROM",
-            "maxLevel" : 1,
+            "maxLevel" : 2,
             "fetchLastLevelOnly" : false,
             "relationType" : "Contains",
             "assetTypes" : [ "fire_department" ]
@@ -557,7 +557,7 @@
               "id" : "a80aac80-4b1d-11ed-947b-f714c95d44e4"
             },
             "direction" : "FROM",
-            "maxLevel" : 1,
+            "maxLevel" : 2,
             "fetchLastLevelOnly" : false,
             "relationType" : "Contains",
             "assetTypes" : [ "hospital" ]
