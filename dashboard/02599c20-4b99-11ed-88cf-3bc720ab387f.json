@@ -392,8 +392,7 @@
               "displayEntityName" : true,
               "displayEntityLabel" : false,
               "displayEntityType" : false,
-              "displayPagination" : true,
-              "defaultPageSize" : 10,
+              "displayPagination" : false,
               "defaultSortOrder" : "entityName",
               "useRowStyleFunction" : false
             },
@@ -470,7 +469,7 @@
             "datasources" : [ {
               "type" : "entity",
               "name" : null,
-              "entityAliasId" : "efa283f4-7962-bc66-6c94-899e9e503768",
+              "entityAliasId" : "21d96dad-15fa-3b5e-0daa-41550a35c115",
               "filterId" : null,
               "dataKeys" : [ ]
             } ]
