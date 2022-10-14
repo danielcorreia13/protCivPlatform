@@ -3,7 +3,186 @@
   "entity" : {
     "assignedCustomers" : null,
     "configuration" : {
-      "description" : ""
+      "description" : "",
+      "widgets" : {
+        "25caabb6-a615-59d4-cf71-f5cd0a957c20" : {
+          "isSystemType" : true,
+          "bundleAlias" : "cards",
+          "typeAlias" : "entities_table",
+          "type" : "latest",
+          "title" : "New widget",
+          "image" : null,
+          "description" : null,
+          "sizeX" : 7.5,
+          "sizeY" : 6.5,
+          "config" : {
+            "timewindow" : {
+              "realtime" : {
+                "interval" : 1000,
+                "timewindowMs" : 86400000
+              },
+              "aggregation" : {
+                "type" : "NONE",
+                "limit" : 200
+              }
+            },
+            "showTitle" : true,
+            "backgroundColor" : "rgb(255, 255, 255)",
+            "color" : "rgba(0, 0, 0, 0.87)",
+            "padding" : "4px",
+            "settings" : {
+              "enableSearch" : true,
+              "enableSelectColumnDisplay" : true,
+              "enableStickyHeader" : true,
+              "enableStickyAction" : true,
+              "reserveSpaceForHiddenAction" : "true",
+              "displayEntityName" : true,
+              "displayEntityLabel" : false,
+              "displayEntityType" : false,
+              "displayPagination" : false,
+              "defaultSortOrder" : "entityName",
+              "useRowStyleFunction" : false
+            },
+            "title" : "New Entities table",
+            "dropShadow" : true,
+            "enableFullscreen" : true,
+            "titleStyle" : {
+              "fontSize" : "16px",
+              "fontWeight" : 400,
+              "padding" : "5px 10px 5px 10px"
+            },
+            "useDashboardTimewindow" : false,
+            "showLegend" : false,
+            "datasources" : [ {
+              "type" : "entity",
+              "name" : null,
+              "entityAliasId" : "ce855543-81d1-48a6-6d86-42f5991a9ca3",
+              "filterId" : null,
+              "dataKeys" : [ ]
+            } ],
+            "actions" : {
+              "rowClick" : [ {
+                "name" : "Selecionar PC Distrital",
+                "icon" : "more_horiz",
+                "useShowWidgetActionFunction" : null,
+                "showWidgetActionFunction" : "return true;",
+                "type" : "updateDashboardState",
+                "targetDashboardStateId" : null,
+                "setEntityId" : true,
+                "stateEntityParamName" : null,
+                "openRightLayout" : false,
+                "openInSeparateDialog" : false,
+                "openInPopover" : false,
+                "id" : "7bde7eb9-35bd-03bf-d7c9-9e22f179d5b4"
+              } ]
+            }
+          },
+          "row" : 0,
+          "col" : 0,
+          "id" : "25caabb6-a615-59d4-cf71-f5cd0a957c20"
+        }
+      },
+      "states" : {
+        "default" : {
+          "name" : "Proteção Civil: Distrital",
+          "root" : true,
+          "layouts" : {
+            "main" : {
+              "widgets" : {
+                "25caabb6-a615-59d4-cf71-f5cd0a957c20" : {
+                  "sizeX" : 7,
+                  "sizeY" : 6,
+                  "row" : 0,
+                  "col" : 0
+                }
+              },
+              "gridSettings" : {
+                "backgroundColor" : "#eeeeee",
+                "columns" : 24,
+                "margin" : 10,
+                "backgroundSizeMode" : "100%"
+              }
+            }
+          }
+        }
+      },
+      "entityAliases" : {
+        "767fb343-229c-fb13-f5a8-26366928641b" : {
+          "id" : "767fb343-229c-fb13-f5a8-26366928641b",
+          "alias" : "Fires_Distrito",
+          "filter" : {
+            "type" : "assetSearchQuery",
+            "resolveMultiple" : true,
+            "rootStateEntity" : true,
+            "stateEntityParamName" : null,
+            "defaultStateEntity" : null,
+            "rootEntity" : null,
+            "direction" : "TO",
+            "maxLevel" : 5,
+            "fetchLastLevelOnly" : false,
+            "relationType" : "Contains",
+            "assetTypes" : [ "event" ]
+          }
+        },
+        "ce855543-81d1-48a6-6d86-42f5991a9ca3" : {
+          "id" : "ce855543-81d1-48a6-6d86-42f5991a9ca3",
+          "alias" : "PC_Distritais",
+          "filter" : {
+            "type" : "assetSearchQuery",
+            "resolveMultiple" : true,
+            "rootStateEntity" : false,
+            "stateEntityParamName" : null,
+            "defaultStateEntity" : null,
+            "rootEntity" : {
+              "entityType" : "ASSET",
+              "id" : "a80aac80-4b1d-11ed-947b-f714c95d44e4"
+            },
+            "direction" : "FROM",
+            "maxLevel" : 1,
+            "fetchLastLevelOnly" : false,
+            "relationType" : "Contains",
+            "assetTypes" : [ "proteção_civil" ]
+          }
+        }
+      },
+      "filters" : { },
+      "timewindow" : {
+        "displayValue" : "",
+        "hideInterval" : false,
+        "hideAggregation" : false,
+        "hideAggInterval" : false,
+        "hideTimezone" : false,
+        "selectedTab" : 0,
+        "realtime" : {
+          "realtimeType" : 0,
+          "interval" : 1000,
+          "timewindowMs" : 60000,
+          "quickInterval" : "CURRENT_DAY"
+        },
+        "history" : {
+          "historyType" : 0,
+          "interval" : 1000,
+          "timewindowMs" : 60000,
+          "fixedTimewindow" : {
+            "startTimeMs" : 1665665899438,
+            "endTimeMs" : 1665752299438
+          },
+          "quickInterval" : "CURRENT_DAY"
+        },
+        "aggregation" : {
+          "type" : "AVG",
+          "limit" : 25000
+        }
+      },
+      "settings" : {
+        "stateControllerId" : "entity",
+        "showTitle" : false,
+        "showDashboardsSelect" : true,
+        "showEntitiesSelect" : true,
+        "showDashboardTimewindow" : true,
+        "showDashboardExport" : true,
+        "toolbarAlwaysOpen" : true
+      }
     },
     "createdTime" : 1665752278456,
     "customerId" : null,
