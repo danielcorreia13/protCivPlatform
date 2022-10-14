@@ -66,8 +66,8 @@
                 "icon" : "more_horiz",
                 "useShowWidgetActionFunction" : null,
                 "showWidgetActionFunction" : "return true;",
-                "type" : "openDashboardState",
-                "targetDashboardStateId" : "default",
+                "type" : "updateDashboardState",
+                "targetDashboardStateId" : "departamento",
                 "setEntityId" : true,
                 "stateEntityParamName" : null,
                 "openRightLayout" : false,
@@ -96,6 +96,21 @@
                   "col" : 0
                 }
               },
+              "gridSettings" : {
+                "backgroundColor" : "#eeeeee",
+                "columns" : 24,
+                "margin" : 10,
+                "backgroundSizeMode" : "100%"
+              }
+            }
+          }
+        },
+        "departamento" : {
+          "name" : "Departamento",
+          "root" : false,
+          "layouts" : {
+            "main" : {
+              "widgets" : { },
               "gridSettings" : {
                 "backgroundColor" : "#eeeeee",
                 "columns" : 24,
