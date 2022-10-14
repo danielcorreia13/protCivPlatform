@@ -1898,7 +1898,22 @@
             "useDashboardTimewindow" : true,
             "showLegend" : false,
             "widgetStyle" : { },
-            "actions" : { },
+            "actions" : {
+              "markerClick" : [ {
+                "name" : "GoToFire",
+                "icon" : "more_horiz",
+                "useShowWidgetActionFunction" : null,
+                "showWidgetActionFunction" : "return true;",
+                "type" : "openDashboardState",
+                "targetDashboardStateId" : "fire",
+                "setEntityId" : true,
+                "stateEntityParamName" : null,
+                "openRightLayout" : false,
+                "openInSeparateDialog" : false,
+                "openInPopover" : false,
+                "id" : "eed971cd-643c-8097-deb8-8410f171ed9d"
+              } ]
+            },
             "showTitleIcon" : false,
             "titleTooltip" : "",
             "enableDataExport" : true,
