@@ -190,7 +190,7 @@
                 "useShowWidgetActionFunction" : null,
                 "showWidgetActionFunction" : "return true;",
                 "type" : "openDashboardState",
-                "targetDashboardStateId" : "default",
+                "targetDashboardStateId" : "bombeiros_locais",
                 "setEntityId" : true,
                 "stateEntityParamName" : null,
                 "openRightLayout" : false,
@@ -231,6 +231,21 @@
                   "col" : 12
                 }
               },
+              "gridSettings" : {
+                "backgroundColor" : "#eeeeee",
+                "columns" : 24,
+                "margin" : 10,
+                "backgroundSizeMode" : "100%"
+              }
+            }
+          }
+        },
+        "bombeiros_locais" : {
+          "name" : "Bombeiros Locais",
+          "root" : false,
+          "layouts" : {
+            "main" : {
+              "widgets" : { },
               "gridSettings" : {
                 "backgroundColor" : "#eeeeee",
                 "columns" : 24,
