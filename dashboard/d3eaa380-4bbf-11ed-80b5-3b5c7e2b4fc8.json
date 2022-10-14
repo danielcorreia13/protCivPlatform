@@ -233,7 +233,7 @@
             "datasources" : [ {
               "type" : "entity",
               "name" : null,
-              "entityAliasId" : "785a4b55-35d9-28db-4ebd-7377b95cdf17",
+              "entityAliasId" : "98cda23a-e687-597b-01e6-9f4a2cdecf90",
               "filterId" : null,
               "dataKeys" : [ {
                 "name" : "latitude",
@@ -1457,6 +1457,16 @@
             "resolveMultiple" : true,
             "assetType" : "event",
             "assetNameFilter" : "crash"
+          }
+        },
+        "98cda23a-e687-597b-01e6-9f4a2cdecf90" : {
+          "id" : "98cda23a-e687-597b-01e6-9f4a2cdecf90",
+          "alias" : "events",
+          "filter" : {
+            "type" : "assetType",
+            "resolveMultiple" : true,
+            "assetType" : "event",
+            "assetNameFilter" : ""
           }
         }
       },
