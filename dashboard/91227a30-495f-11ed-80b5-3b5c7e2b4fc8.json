@@ -867,7 +867,7 @@
               "selectedTab" : 1,
               "history" : {
                 "historyType" : 0,
-                "timewindowMs" : 300000,
+                "timewindowMs" : 120000,
                 "interval" : 1000,
                 "fixedTimewindow" : {
                   "startTimeMs" : 1665659040201,
@@ -1026,7 +1026,7 @@
                 },
                 "5aaa73a3-6c8d-eba7-4e1a-f8ce3ac29896" : {
                   "sizeX" : 5,
-                  "sizeY" : 6,
+                  "sizeY" : 5,
                   "row" : 5,
                   "col" : 0
                 },
