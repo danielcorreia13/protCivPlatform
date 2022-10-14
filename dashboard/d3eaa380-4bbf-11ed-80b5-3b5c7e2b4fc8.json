@@ -514,7 +514,14 @@
               "name" : null,
               "entityAliasId" : "48a49a74-d1d3-dc8b-7f8c-08026724eb68",
               "filterId" : null,
-              "dataKeys" : [ ]
+              "dataKeys" : [ {
+                "name" : "ambulâncias_disp",
+                "type" : "attribute",
+                "label" : "ambulâncias_disp",
+                "color" : "#2196f3",
+                "settings" : { },
+                "_hash" : 0.3916466065745412
+              } ]
             } ]
           },
           "row" : 0,
