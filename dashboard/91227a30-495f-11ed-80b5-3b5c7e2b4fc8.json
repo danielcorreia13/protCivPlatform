@@ -529,7 +529,7 @@
               "rowClick" : [ ],
               "actionCellButton" : [ {
                 "name" : "Create Fire Event",
-                "icon" : "open_in_new",
+                "icon" : "add",
                 "useShowWidgetActionFunction" : null,
                 "showWidgetActionFunction" : "return true;",
                 "type" : "custom",
@@ -537,6 +537,19 @@
                 "openInSeparateDialog" : false,
                 "openInPopover" : false,
                 "id" : "ff4ff581-b23a-4cc0-b00c-6e19eacb22a6"
+              }, {
+                "name" : "GoToStation",
+                "icon" : "open_in_new",
+                "useShowWidgetActionFunction" : null,
+                "showWidgetActionFunction" : "return true;",
+                "type" : "openDashboardState",
+                "targetDashboardStateId" : "station",
+                "setEntityId" : true,
+                "stateEntityParamName" : null,
+                "openRightLayout" : false,
+                "openInSeparateDialog" : false,
+                "openInPopover" : false,
+                "id" : "4126543c-802c-4ffa-763b-8be430b0b97a"
               } ]
             },
             "alarmStatusList" : [ ],
@@ -1427,7 +1440,7 @@
             "actions" : {
               "actionCellButton" : [ {
                 "name" : "CreateEvent",
-                "icon" : "open_in_new",
+                "icon" : "add",
                 "useShowWidgetActionFunction" : null,
                 "showWidgetActionFunction" : "return true;",
                 "type" : "custom",
@@ -1879,6 +1892,21 @@
                   "col" : 0
                 }
               },
+              "gridSettings" : {
+                "backgroundColor" : "#eeeeee",
+                "columns" : 24,
+                "margin" : 10,
+                "backgroundSizeMode" : "100%"
+              }
+            }
+          }
+        },
+        "station" : {
+          "name" : "${entityName}: details",
+          "root" : false,
+          "layouts" : {
+            "main" : {
+              "widgets" : { },
               "gridSettings" : {
                 "backgroundColor" : "#eeeeee",
                 "columns" : 24,
