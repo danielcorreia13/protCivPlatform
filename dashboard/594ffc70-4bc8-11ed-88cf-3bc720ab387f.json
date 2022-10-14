@@ -135,7 +135,23 @@
               "entityAliasId" : "e0cf4248-fafa-c262-2c7c-433128bc8ebd",
               "filterId" : null,
               "dataKeys" : [ ]
-            } ]
+            } ],
+            "actions" : {
+              "rowClick" : [ {
+                "name" : "Go_To_Truck",
+                "icon" : "more_horiz",
+                "useShowWidgetActionFunction" : null,
+                "showWidgetActionFunction" : "return true;",
+                "type" : "openDashboardState",
+                "targetDashboardStateId" : "truck",
+                "setEntityId" : true,
+                "stateEntityParamName" : null,
+                "openRightLayout" : false,
+                "openInSeparateDialog" : false,
+                "openInPopover" : false,
+                "id" : "6c6b7a35-2dd3-d8b2-9fa0-448a0358f3f3"
+              } ]
+            }
           },
           "row" : 0,
           "col" : 0,
@@ -261,6 +277,21 @@
                   "col" : 7
                 }
               },
+              "gridSettings" : {
+                "backgroundColor" : "#eeeeee",
+                "columns" : 24,
+                "margin" : 10,
+                "backgroundSizeMode" : "100%"
+              }
+            }
+          }
+        },
+        "truck" : {
+          "name" : "truck",
+          "root" : false,
+          "layouts" : {
+            "main" : {
+              "widgets" : { },
               "gridSettings" : {
                 "backgroundColor" : "#eeeeee",
                 "columns" : 24,
