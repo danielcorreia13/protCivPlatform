@@ -819,7 +819,7 @@
           "col" : 0,
           "id" : "5aaa73a3-6c8d-eba7-4e1a-f8ce3ac29896"
         },
-        "1cbed6c8-94be-4217-8586-803910ba27a1" : {
+        "9c6dd8a8-2a03-5a1c-e7b8-182f34eafc63" : {
           "isSystemType" : true,
           "bundleAlias" : "cards",
           "typeAlias" : "attributes_card",
@@ -833,7 +833,7 @@
             "datasources" : [ {
               "type" : "entity",
               "name" : null,
-              "entityAliasId" : "767fb343-229c-fb13-f5a8-26366928641b",
+              "entityAliasId" : "0ba0bec3-c6e5-f99e-84f2-ebc5082355f0",
               "filterId" : null,
               "dataKeys" : [ {
                 "name" : "latitude",
@@ -841,28 +841,14 @@
                 "label" : "latitude",
                 "color" : "#2196f3",
                 "settings" : { },
-                "_hash" : 0.16980924066491943
+                "_hash" : 0.32365678486230376
               }, {
                 "name" : "longitude",
                 "type" : "attribute",
                 "label" : "longitude",
                 "color" : "#4caf50",
                 "settings" : { },
-                "_hash" : 0.40778646389387063
-              }, {
-                "name" : "n_officers",
-                "type" : "attribute",
-                "label" : "n_officers",
-                "color" : "#f44336",
-                "settings" : { },
-                "_hash" : 0.7759287980139451
-              }, {
-                "name" : "waterLevel",
-                "type" : "attribute",
-                "label" : "waterLevel",
-                "color" : "#ffc107",
-                "settings" : { },
-                "_hash" : 0.368168823668243
+                "_hash" : 0.24567405671211495
               } ]
             } ],
             "timewindow" : {
@@ -875,11 +861,25 @@
             "color" : "rgba(0, 0, 0, 0.87)",
             "padding" : "8px",
             "settings" : { },
-            "title" : "New Attributes card"
+            "title" : "Current Event",
+            "showTitleIcon" : false,
+            "titleTooltip" : "",
+            "dropShadow" : true,
+            "enableFullscreen" : true,
+            "enableDataExport" : true,
+            "widgetStyle" : { },
+            "widgetCss" : "",
+            "titleStyle" : {
+              "fontSize" : "16px",
+              "fontWeight" : 400
+            },
+            "pageSize" : 1024,
+            "noDataDisplayMessage" : "",
+            "showLegend" : false
           },
           "row" : 0,
           "col" : 0,
-          "id" : "1cbed6c8-94be-4217-8586-803910ba27a1"
+          "id" : "9c6dd8a8-2a03-5a1c-e7b8-182f34eafc63"
         }
       },
       "states" : {
@@ -975,9 +975,9 @@
                   "row" : 6,
                   "col" : 0
                 },
-                "1cbed6c8-94be-4217-8586-803910ba27a1" : {
+                "9c6dd8a8-2a03-5a1c-e7b8-182f34eafc63" : {
                   "sizeX" : 7,
-                  "sizeY" : 6,
+                  "sizeY" : 3,
                   "row" : 0,
                   "col" : 0
                 }
@@ -1123,6 +1123,33 @@
             "fetchLastLevelOnly" : false,
             "relationType" : null,
             "assetTypes" : [ "fire_department" ]
+          }
+        },
+        "9f315e23-0593-edca-e8b8-327e8affbe72" : {
+          "id" : "9f315e23-0593-edca-e8b8-327e8affbe72",
+          "alias" : "Current Fire",
+          "filter" : {
+            "type" : "assetSearchQuery",
+            "resolveMultiple" : true,
+            "rootStateEntity" : true,
+            "stateEntityParamName" : null,
+            "defaultStateEntity" : null,
+            "rootEntity" : null,
+            "direction" : "FROM",
+            "maxLevel" : 1,
+            "fetchLastLevelOnly" : false,
+            "relationType" : "Contains",
+            "assetTypes" : [ "event" ]
+          }
+        },
+        "0ba0bec3-c6e5-f99e-84f2-ebc5082355f0" : {
+          "id" : "0ba0bec3-c6e5-f99e-84f2-ebc5082355f0",
+          "alias" : "current",
+          "filter" : {
+            "type" : "stateEntity",
+            "resolveMultiple" : false,
+            "stateEntityParamName" : null,
+            "defaultStateEntity" : null
           }
         }
       },
