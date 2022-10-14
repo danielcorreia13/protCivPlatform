@@ -749,6 +749,16 @@
             "relationType" : "Contains",
             "deviceTypes" : [ "fire_truck" ]
           }
+        },
+        "39d037b9-0e7a-b9ca-7f32-56336f08832a" : {
+          "id" : "39d037b9-0e7a-b9ca-7f32-56336f08832a",
+          "alias" : "current",
+          "filter" : {
+            "type" : "stateEntity",
+            "resolveMultiple" : false,
+            "stateEntityParamName" : null,
+            "defaultStateEntity" : null
+          }
         }
       },
       "filters" : { },
