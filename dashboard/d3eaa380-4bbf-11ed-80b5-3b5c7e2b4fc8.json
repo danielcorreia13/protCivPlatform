@@ -729,7 +729,7 @@
               "showPoints" : false,
               "showPolygon" : false
             },
-            "title" : "New Trip Animation",
+            "title" : "Vehicles",
             "dropShadow" : true,
             "enableFullscreen" : true,
             "titleStyle" : {
@@ -747,7 +747,13 @@
               "showAvg" : false,
               "showTotal" : false
             },
-            "displayTimewindow" : true
+            "displayTimewindow" : true,
+            "showTitleIcon" : false,
+            "titleTooltip" : "",
+            "enableDataExport" : true,
+            "widgetCss" : "",
+            "pageSize" : 1024,
+            "noDataDisplayMessage" : ""
           },
           "row" : 0,
           "col" : 0,
@@ -1020,7 +1026,7 @@
                 },
                 "6831f769-ffe9-44d5-2d91-63394cf50197" : {
                   "sizeX" : 10,
-                  "sizeY" : 10,
+                  "sizeY" : 12,
                   "row" : 0,
                   "col" : 15
                 },
