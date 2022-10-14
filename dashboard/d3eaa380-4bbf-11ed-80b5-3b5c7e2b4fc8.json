@@ -854,7 +854,7 @@
             "datasources" : [ {
               "type" : "entity",
               "name" : null,
-              "entityAliasId" : "0ba0bec3-c6e5-f99e-84f2-ebc5082355f0",
+              "entityAliasId" : "ee10c667-727d-9b7d-0d78-efa28b66efd8",
               "filterId" : null,
               "dataKeys" : [ {
                 "name" : "latitude",
@@ -870,6 +870,27 @@
                 "color" : "#4caf50",
                 "settings" : { },
                 "_hash" : 0.24567405671211495
+              }, {
+                "name" : "temperature",
+                "type" : "timeseries",
+                "label" : "temperature",
+                "color" : "#f44336",
+                "settings" : { },
+                "_hash" : 0.31962081421929023
+              }, {
+                "name" : "wind_direction",
+                "type" : "timeseries",
+                "label" : "wind_direction",
+                "color" : "#ffc107",
+                "settings" : { },
+                "_hash" : 0.0519392364097111
+              }, {
+                "name" : "wind_speed",
+                "type" : "timeseries",
+                "label" : "wind_speed",
+                "color" : "#607d8b",
+                "settings" : { },
+                "_hash" : 0.1231904342131318
               } ]
             } ],
             "timewindow" : {
@@ -994,7 +1015,7 @@
                 "d6b55d0a-079b-7c05-cc8e-528760e823c4" : {
                   "sizeX" : 8,
                   "sizeY" : 6,
-                  "row" : 4,
+                  "row" : 6,
                   "col" : 7
                 },
                 "6831f769-ffe9-44d5-2d91-63394cf50197" : {
@@ -1006,12 +1027,12 @@
                 "5aaa73a3-6c8d-eba7-4e1a-f8ce3ac29896" : {
                   "sizeX" : 7,
                   "sizeY" : 6,
-                  "row" : 4,
+                  "row" : 6,
                   "col" : 0
                 },
                 "9c6dd8a8-2a03-5a1c-e7b8-182f34eafc63" : {
                   "sizeX" : 7,
-                  "sizeY" : 4,
+                  "sizeY" : 6,
                   "row" : 0,
                   "col" : 0
                 }
