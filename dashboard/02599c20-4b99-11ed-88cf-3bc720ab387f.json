@@ -121,7 +121,23 @@
               "entityAliasId" : "1bd0bb33-f514-9e10-4865-ebcc1613f58d",
               "filterId" : null,
               "dataKeys" : [ ]
-            } ]
+            } ],
+            "actions" : {
+              "rowClick" : [ {
+                "name" : "Bombeiros Locais",
+                "icon" : "visibility",
+                "useShowWidgetActionFunction" : null,
+                "showWidgetActionFunction" : "return true;",
+                "type" : "openDashboardState",
+                "targetDashboardStateId" : "bombeiros_locais",
+                "setEntityId" : true,
+                "stateEntityParamName" : null,
+                "openRightLayout" : false,
+                "openInSeparateDialog" : false,
+                "openInPopover" : false,
+                "id" : "604ed97d-2e8b-323f-f126-8fb4ded79024"
+              } ]
+            }
           },
           "row" : 0,
           "col" : 0,
