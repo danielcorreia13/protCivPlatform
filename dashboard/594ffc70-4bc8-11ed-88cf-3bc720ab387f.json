@@ -536,7 +536,7 @@
               "showPoints" : false,
               "showPolygon" : false
             },
-            "title" : "Vehicles",
+            "title" : "Fire Truck Location",
             "dropShadow" : true,
             "enableFullscreen" : true,
             "titleStyle" : {
