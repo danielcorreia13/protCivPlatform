@@ -440,19 +440,19 @@
               "entityAliasId" : "6a823a8b-2e9c-08d0-0c4a-216949f562ed",
               "filterId" : null,
               "dataKeys" : [ {
-                "name" : "n_operacionais_disponiveis",
+                "name" : "n_op_disp",
                 "type" : "attribute",
-                "label" : "n_operacionais_disponiveis",
+                "label" : "n_op_disp",
                 "color" : "#2196f3",
                 "settings" : { },
-                "_hash" : 0.8492279819397466
+                "_hash" : 0.5006105144720714
               }, {
-                "name" : "n_veiculos_disponiveis",
+                "name" : "n_veic_disp",
                 "type" : "attribute",
-                "label" : "n_veiculos_disponiveis",
+                "label" : "n_veic_disp",
                 "color" : "#4caf50",
                 "settings" : { },
-                "_hash" : 0.8313277958660155
+                "_hash" : 0.034972416416596985
               } ]
             } ]
           },
