@@ -967,7 +967,7 @@
           }
         },
         "protecao_civil_distrital" : {
-          "name" : "Proteção Civil Distrital",
+          "name" : "Fire Department",
           "root" : false,
           "layouts" : {
             "main" : {
