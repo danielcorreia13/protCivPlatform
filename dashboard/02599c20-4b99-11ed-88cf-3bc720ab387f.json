@@ -1002,6 +1002,73 @@
           "row" : 0,
           "col" : 0,
           "id" : "0ddb1bf8-d555-23e9-c1e2-39337ac3ea6a"
+        },
+        "bf7240d8-0cff-95cd-768e-d32bd0727079" : {
+          "isSystemType" : true,
+          "bundleAlias" : "cards",
+          "typeAlias" : "entities_table",
+          "type" : "latest",
+          "title" : "New widget",
+          "image" : null,
+          "description" : null,
+          "sizeX" : 7.5,
+          "sizeY" : 6.5,
+          "config" : {
+            "timewindow" : {
+              "realtime" : {
+                "interval" : 1000,
+                "timewindowMs" : 86400000
+              },
+              "aggregation" : {
+                "type" : "NONE",
+                "limit" : 200
+              }
+            },
+            "showTitle" : true,
+            "backgroundColor" : "rgb(255, 255, 255)",
+            "color" : "rgba(0, 0, 0, 0.87)",
+            "padding" : "4px",
+            "settings" : {
+              "enableSearch" : true,
+              "enableSelectColumnDisplay" : true,
+              "enableStickyHeader" : true,
+              "enableStickyAction" : true,
+              "reserveSpaceForHiddenAction" : "true",
+              "displayEntityName" : true,
+              "displayEntityLabel" : false,
+              "displayEntityType" : false,
+              "displayPagination" : false,
+              "defaultSortOrder" : "entityName",
+              "useRowStyleFunction" : false
+            },
+            "title" : "New Entities table",
+            "dropShadow" : true,
+            "enableFullscreen" : true,
+            "titleStyle" : {
+              "fontSize" : "16px",
+              "fontWeight" : 400,
+              "padding" : "5px 10px 5px 10px"
+            },
+            "useDashboardTimewindow" : false,
+            "showLegend" : false,
+            "datasources" : [ {
+              "type" : "entity",
+              "name" : null,
+              "entityAliasId" : "f5913dcb-40d2-112c-511c-17da72cb3d3f",
+              "filterId" : null,
+              "dataKeys" : [ {
+                "name" : "booleanValue",
+                "type" : "attribute",
+                "label" : "booleanValue",
+                "color" : "#2196f3",
+                "settings" : { },
+                "_hash" : 0.4979881534352111
+              } ]
+            } ]
+          },
+          "row" : 0,
+          "col" : 0,
+          "id" : "bf7240d8-0cff-95cd-768e-d32bd0727079"
         }
       },
       "states" : {
@@ -1034,6 +1101,12 @@
                   "sizeY" : 13,
                   "row" : 0,
                   "col" : 13
+                },
+                "bf7240d8-0cff-95cd-768e-d32bd0727079" : {
+                  "sizeX" : 7,
+                  "sizeY" : 6,
+                  "row" : 12,
+                  "col" : 0
                 }
               },
               "gridSettings" : {
