@@ -1365,7 +1365,7 @@
           }
         },
         "fire" : {
-          "name" : "fire",
+          "name" : "${entityName}: details",
           "root" : false,
           "layouts" : {
             "main" : {
@@ -1411,7 +1411,7 @@
           }
         },
         "truck" : {
-          "name" : "truck",
+          "name" : "${entityName}: details",
           "root" : false,
           "layouts" : {
             "main" : {
