@@ -1379,10 +1379,10 @@
     "image" : null,
     "mobileHide" : false,
     "mobileOrder" : null,
-    "name" : "Fire",
+    "name" : "Proteção Civil : Comando Geral",
     "ownerId" : null,
     "tenantId" : null,
-    "title" : "Fire"
+    "title" : "Proteção Civil : Comando Geral"
   },
   "relations" : [ ],
   "attributes" : {
